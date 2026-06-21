@@ -1,8 +1,24 @@
 {
   "activeAccountId": 1,
-  "lastChecked": "2026-06-21T07:00:00.436Z",
-  "lastSwitched": "2026-06-21T06:59:17.827Z",
+  "lastChecked": "2026-06-21T08:00:00.866Z",
+  "lastSwitched": "2026-06-21T07:11:33.632Z",
   "rotationHistory": [
+    {
+      "timestamp": "2026-06-21T07:11:33.632Z",
+      "from": "abubakar22",
+      "fromOwner": "Jehad",
+      "to": "multazam",
+      "toOwner": "Multazam",
+      "reason": "Manual activation via dashboard"
+    },
+    {
+      "timestamp": "2026-06-21T07:10:53.308Z",
+      "from": "multazam",
+      "fromOwner": "Multazam",
+      "to": "abubakar22",
+      "toOwner": "Jehad",
+      "reason": "Manual activation via dashboard"
+    },
     {
       "timestamp": "2026-06-21T06:59:17.827Z",
       "from": "abubakar22",
@@ -26,15 +42,15 @@
       "owner": "Multazam",
       "freeLimit": "200 hrs",
       "freeLimitHours": 200,
-      "totalUse": "9 hrs 41 mins 4 secs",
-      "totalUseHours": 9.684444444444445,
+      "totalUse": "9 hrs 52 mins 30 secs",
+      "totalUseHours": 9.875,
       "extraUse": "0 secs",
       "estimatedBill": "0 Taka",
       "status": "active",
-      "usagePercent": "4.8",
-      "remainingHours": "190.3",
-      "scrapedAt": "2026-06-21T07:00:00.316Z",
-      "cachedAt": "2026-06-21T07:00:00.436Z"
+      "usagePercent": "4.9",
+      "remainingHours": "190.1",
+      "scrapedAt": "2026-06-21T08:00:00.601Z",
+      "cachedAt": "2026-06-21T08:00:00.866Z"
     },
     "tahsanlihan": {
       "username": "tahsanlihan",

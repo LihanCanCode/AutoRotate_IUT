@@ -162,18 +162,23 @@ router.post('/api/activate', async (req, res) => {
 
   try {
     const result = await updatePPPoECredentials(appConfig.router, targetAccount.username, targetAccount.password);
+    const { notify } = require('../src/notifier');
 
     if (result.success) {
       const currentAccount = appConfig.accounts.find(a => a.id === appState.activeAccountId);
       accountManager.recordRotation(appState, currentAccount, targetAccount, 'Manual activation via dashboard');
       logger.info(`[API] ✅ Activated: ${targetAccount.owner}`);
+      notify('AntiWifi: Connection Switched ✅', `Manually activated ${targetAccount.owner}'s connection.`);
       return res.json({ ok: true, success: true, message: `${targetAccount.owner} is now the active connection` });
     }
 
     logger.error(`[API] Activation failed:`, result.error);
+    notify('AntiWifi Manual Switch Failed ❌', `Failed to switch to ${targetAccount.owner}: ${result.error}`);
     res.json({ ok: true, success: false, error: result.error || 'Router update failed' });
   } catch (err) {
     logger.error(`[API] Activation error: ${err.message}`);
+    const { notify } = require('../src/notifier');
+    notify('AntiWifi Manual Switch Error ❌', err.message);
     res.status(500).json({ ok: false, error: err.message });
   }
 });

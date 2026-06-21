@@ -51,7 +51,9 @@ async function runCheckCycle(forceRefreshAll = false) {
 
       // Check if we need to rotate
       if (accountManager.needsRotation(state, usageData, config.threshold_hours)) {
+        const { notify } = require('./notifier');
         logger.info('[Scheduler] 🔄 Rotation needed! Finding next account...');
+        notify('AntiWifi: Rotation Triggered 🔄', `${activeAccount.owner} reached usage threshold. Selecting next roommate...`);
 
         const nextAccount = accountManager.getNextAccount(state, config.accounts, config.threshold_hours);
 
@@ -67,11 +69,14 @@ async function runCheckCycle(forceRefreshAll = false) {
               `Usage at ${usageData.totalUseHours.toFixed(1)}h (threshold: ${config.threshold_hours}h)`
             );
             logger.info(`[Scheduler] ✅ Successfully rotated to ${nextAccount.owner}`);
+            notify('AntiWifi: Rotation Successful! ✅', `Switched from ${activeAccount.owner} to ${nextAccount.owner}.`);
           } else {
             logger.error(`[Scheduler] ❌ Router update failed:`, result.error);
+            notify('AntiWifi Error ❌', `Failed to rotate to ${nextAccount.owner}: ${result.error}`);
           }
         } else {
           logger.error('[Scheduler] ❌ No available accounts to switch to!');
+          notify('AntiWifi Alert ⚠️', `No accounts left under the ${config.threshold_hours}h threshold!`);
         }
       }
     }
