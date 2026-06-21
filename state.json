@@ -1,0 +1,47 @@
+{
+  "activeAccountId": 3,
+  "lastChecked": "2026-06-21T06:30:26.545Z",
+  "lastSwitched": "2026-06-21T06:30:56.106Z",
+  "rotationHistory": [
+    {
+      "timestamp": "2026-06-21T06:30:56.106Z",
+      "from": "unknown",
+      "fromOwner": "unknown",
+      "to": "multazam",
+      "toOwner": "Multa",
+      "reason": "Manual activation via dashboard"
+    }
+  ],
+  "usageCache": {
+    "tahsanlihan": {
+      "username": "tahsanlihan",
+      "owner": "Lihan",
+      "freeLimit": "200 hrs",
+      "freeLimitHours": 200,
+      "totalUse": "182 hrs 54 mins 12 secs",
+      "totalUseHours": 182.90333333333334,
+      "extraUse": "0 secs",
+      "estimatedBill": "0 Taka",
+      "status": "active",
+      "usagePercent": "91.5",
+      "remainingHours": "17.1",
+      "scrapedAt": "2026-06-21T06:30:22.650Z",
+      "cachedAt": "2026-06-21T06:30:26.544Z"
+    },
+    "multazam": {
+      "username": "multazam",
+      "owner": "Multa",
+      "freeLimit": "200 hrs",
+      "freeLimitHours": 200,
+      "totalUse": "9 hrs 13 mins 21 secs",
+      "totalUseHours": 9.2225,
+      "extraUse": "0 secs",
+      "estimatedBill": "0 Taka",
+      "status": "active",
+      "usagePercent": "4.6",
+      "remainingHours": "190.8",
+      "scrapedAt": "2026-06-21T06:30:24.673Z",
+      "cachedAt": "2026-06-21T06:30:26.545Z"
+    }
+  }
+}

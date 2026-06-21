@@ -1,0 +1,25 @@
+{
+  "name": "antiwifi",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "dependencies": {
+    "axios": "^1.18.0",
+    "axios-cookiejar-support": "^7.0.0",
+    "cheerio": "^1.2.0",
+    "dotenv": "^17.4.2",
+    "express": "^5.2.1",
+    "node-cron": "^4.4.1",
+    "puppeteer": "^25.1.0",
+    "tough-cookie": "^6.0.1",
+    "winston": "^3.19.0"
+  }
+}

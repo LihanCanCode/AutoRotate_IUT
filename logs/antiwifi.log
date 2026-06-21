@@ -1,0 +1,436 @@
+{"level":"info","message":"━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━","timestamp":"2026-06-21 10:33:49"}
+{"level":"info","message":"  ⚡ AntiWifi — Auto PPPoE Rotation System","timestamp":"2026-06-21 10:33:49"}
+{"level":"info","message":"  🌐 Dashboard: http://localhost:3000","timestamp":"2026-06-21 10:33:49"}
+{"level":"info","message":"  📡 Portal:    http://10.220.20.12","timestamp":"2026-06-21 10:33:49"}
+{"level":"info","message":"  📡 Router:    http://192.168.0.1","timestamp":"2026-06-21 10:33:49"}
+{"level":"info","message":"  ⏱  Interval:  every 30 minutes","timestamp":"2026-06-21 10:33:49"}
+{"level":"info","message":"  🔔 Threshold: 190 hours","timestamp":"2026-06-21 10:33:49"}
+{"level":"info","message":"  👥 Accounts:  4 configured","timestamp":"2026-06-21 10:33:49"}
+{"level":"info","message":"━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━","timestamp":"2026-06-21 10:33:49"}
+{"level":"info","message":"[Scheduler] Starting — checking every 30 minutes","timestamp":"2026-06-21 10:33:49"}
+{"level":"info","message":"[Scheduler] Rotation threshold: 190 hours","timestamp":"2026-06-21 10:33:49"}
+{"level":"info","message":"━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━","timestamp":"2026-06-21 10:33:49"}
+{"level":"info","message":"[Scheduler] 🔍 Starting check cycle...","timestamp":"2026-06-21 10:33:49"}
+{"level":"info","message":"[Scheduler] Active account: Tahsan (tahsanlihan)","timestamp":"2026-06-21 10:33:49"}
+{"level":"info","message":"[Scraper] Fetching login page for: tahsanlihan","timestamp":"2026-06-21 10:33:49"}
+{"level":"info","message":"[Scheduler] Cron jobs started","timestamp":"2026-06-21 10:33:49"}
+{"level":"info","message":"[Scraper] Logging in as: tahsanlihan","timestamp":"2026-06-21 10:33:49"}
+{"level":"info","message":"[Scraper] Tahsan: 182.9h / 200h (91.5%)","timestamp":"2026-06-21 10:33:50"}
+{"level":"info","message":"[AccountManager] Tahsan: 182.9h / 190h threshold — OK","timestamp":"2026-06-21 10:33:50"}
+{"level":"info","message":"[Scheduler] 🔄 Refreshing all accounts usage...","timestamp":"2026-06-21 10:33:50"}
+{"level":"info","message":"[Scraper] Fetching login page for: tahsanlihan","timestamp":"2026-06-21 10:33:50"}
+{"level":"info","message":"[Scraper] Logging in as: tahsanlihan","timestamp":"2026-06-21 10:33:50"}
+{"level":"info","message":"[Scraper] Tahsan: 182.9h / 200h (91.5%)","timestamp":"2026-06-21 10:33:50"}
+{"level":"info","message":"[Scraper] Fetching login page for: roommate2","timestamp":"2026-06-21 10:33:52"}
+{"level":"info","message":"[Scraper] Logging in as: roommate2","timestamp":"2026-06-21 10:33:52"}
+{"level":"error","message":"[Scraper] Failed for roommate2: Request failed with status code 401","timestamp":"2026-06-21 10:33:52"}
+{"level":"info","message":"[Scraper] Fetching login page for: roommate3","timestamp":"2026-06-21 10:33:53"}
+{"level":"info","message":"[Scraper] Logging in as: roommate3","timestamp":"2026-06-21 10:33:53"}
+{"level":"error","message":"[Scraper] Failed for roommate3: Request failed with status code 401","timestamp":"2026-06-21 10:33:54"}
+{"level":"info","message":"[Scraper] Fetching login page for: roommate4","timestamp":"2026-06-21 10:33:55"}
+{"level":"info","message":"[Scraper] Logging in as: roommate4","timestamp":"2026-06-21 10:33:55"}
+{"level":"error","message":"[Scraper] Failed for roommate4: Request failed with status code 401","timestamp":"2026-06-21 10:33:55"}
+{"level":"info","message":"[Scheduler] ✅ Check cycle complete","timestamp":"2026-06-21 10:33:57"}
+{"level":"info","message":"━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━","timestamp":"2026-06-21 10:33:57"}
+{"level":"info","message":"━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━","timestamp":"2026-06-21 10:45:13"}
+{"level":"info","message":"  ⚡ AntiWifi — Auto PPPoE Rotation System","timestamp":"2026-06-21 10:45:13"}
+{"level":"info","message":"  🌐 Dashboard: http://localhost:3000","timestamp":"2026-06-21 10:45:13"}
+{"level":"info","message":"  📡 Portal:    http://10.220.20.12","timestamp":"2026-06-21 10:45:13"}
+{"level":"info","message":"  📡 Router:    http://192.168.0.1","timestamp":"2026-06-21 10:45:13"}
+{"level":"info","message":"  ⏱  Interval:  every 30 minutes","timestamp":"2026-06-21 10:45:13"}
+{"level":"info","message":"  🔔 Threshold: 190 hours","timestamp":"2026-06-21 10:45:13"}
+{"level":"info","message":"  👥 Accounts:  0 configured","timestamp":"2026-06-21 10:45:13"}
+{"level":"info","message":"━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━","timestamp":"2026-06-21 10:45:13"}
+{"level":"info","message":"[Scheduler] Starting — checking every 30 minutes","timestamp":"2026-06-21 10:45:13"}
+{"level":"info","message":"[Scheduler] Rotation threshold: 190 hours","timestamp":"2026-06-21 10:45:13"}
+{"level":"info","message":"━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━","timestamp":"2026-06-21 10:45:13"}
+{"level":"info","message":"[Scheduler] 🔍 Starting check cycle...","timestamp":"2026-06-21 10:45:13"}
+{"level":"error","message":"[Scheduler] Cycle error: Cannot read properties of undefined (reading 'owner')","stack":"TypeError: Cannot read properties of undefined (reading 'owner')\n    at runCheckCycle (E:\\3-1\\MyProjects\\AntiWifi\\src\\scheduler.js:35:62)\n    at Object.start (E:\\3-1\\MyProjects\\AntiWifi\\src\\scheduler.js:100:3)\n    at Server.<anonymous> (E:\\3-1\\MyProjects\\AntiWifi\\src\\index.js:56:13)\n    at Server.f (E:\\3-1\\MyProjects\\AntiWifi\\node_modules\\once\\once.js:25:25)\n    at Object.onceWrapper (node:events:622:28)\n    at Server.emit (node:events:520:35)\n    at emitListeningNT (node:net:1991:10)\n    at process.processTicksAndRejections (node:internal/process/task_queues:89:21)","timestamp":"2026-06-21 10:45:13"}
+{"level":"info","message":"[Scheduler] ✅ Check cycle complete","timestamp":"2026-06-21 10:45:13"}
+{"level":"info","message":"━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━","timestamp":"2026-06-21 10:45:13"}
+{"level":"info","message":"[Scheduler] Cron jobs started","timestamp":"2026-06-21 10:45:13"}
+{"level":"info","message":"━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━","timestamp":"2026-06-21 10:45:46"}
+{"level":"info","message":"  ⚡ AntiWifi — Auto PPPoE Rotation System","timestamp":"2026-06-21 10:45:46"}
+{"level":"info","message":"  🌐 Dashboard: http://localhost:3000","timestamp":"2026-06-21 10:45:46"}
+{"level":"info","message":"  📡 Portal:    http://10.220.20.12","timestamp":"2026-06-21 10:45:46"}
+{"level":"info","message":"  📡 Router:    http://192.168.0.1","timestamp":"2026-06-21 10:45:46"}
+{"level":"info","message":"  ⏱  Interval:  every 30 minutes","timestamp":"2026-06-21 10:45:46"}
+{"level":"info","message":"  🔔 Threshold: 190 hours","timestamp":"2026-06-21 10:45:46"}
+{"level":"info","message":"  👥 Accounts:  0 configured","timestamp":"2026-06-21 10:45:46"}
+{"level":"info","message":"━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━","timestamp":"2026-06-21 10:45:46"}
+{"level":"info","message":"[Scheduler] Starting — checking every 30 minutes","timestamp":"2026-06-21 10:45:46"}
+{"level":"info","message":"[Scheduler] Rotation threshold: 190 hours","timestamp":"2026-06-21 10:45:46"}
+{"level":"info","message":"━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━","timestamp":"2026-06-21 10:45:46"}
+{"level":"info","message":"[Scheduler] 🔍 Starting check cycle...","timestamp":"2026-06-21 10:45:46"}
+{"level":"info","message":"[Scheduler] No accounts configured yet. Skipping check cycle.","timestamp":"2026-06-21 10:45:46"}
+{"level":"info","message":"[Scheduler] ✅ Check cycle complete","timestamp":"2026-06-21 10:45:46"}
+{"level":"info","message":"━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━","timestamp":"2026-06-21 10:45:46"}
+{"level":"info","message":"[Scheduler] Cron jobs started","timestamp":"2026-06-21 10:45:46"}
+{"level":"info","message":"[API] Config updated","timestamp":"2026-06-21 10:47:07"}
+{"level":"info","message":"[API] Config updated","timestamp":"2026-06-21 10:47:34"}
+{"level":"info","message":"[API] Account added: Lihan (tahsanlihan)","timestamp":"2026-06-21 10:47:49"}
+{"level":"info","message":"[API] Account added: Jehad (abubakar22)","timestamp":"2026-06-21 10:48:23"}
+{"level":"info","message":"[API] Manual check triggered","timestamp":"2026-06-21 10:48:23"}
+{"level":"info","message":"━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━","timestamp":"2026-06-21 10:48:23"}
+{"level":"info","message":"[Scheduler] 🔍 Starting check cycle...","timestamp":"2026-06-21 10:48:23"}
+{"level":"info","message":"[Scheduler] Active account: Lihan (tahsanlihan)","timestamp":"2026-06-21 10:48:23"}
+{"level":"info","message":"[Scraper] Fetching login page for: tahsanlihan","timestamp":"2026-06-21 10:48:23"}
+{"level":"info","message":"[Scraper] Logging in as: tahsanlihan","timestamp":"2026-06-21 10:48:23"}
+{"level":"info","message":"[Scraper] Lihan: 182.9h / 200h (91.5%)","timestamp":"2026-06-21 10:48:24"}
+{"level":"info","message":"[AccountManager] Lihan: 182.9h / 190h threshold — OK","timestamp":"2026-06-21 10:48:24"}
+{"level":"info","message":"[Scheduler] 🔄 Refreshing all accounts usage...","timestamp":"2026-06-21 10:48:24"}
+{"level":"info","message":"[Scraper] Fetching login page for: tahsanlihan","timestamp":"2026-06-21 10:48:24"}
+{"level":"info","message":"[Scraper] Logging in as: tahsanlihan","timestamp":"2026-06-21 10:48:24"}
+{"level":"info","message":"[Scraper] Lihan: 182.9h / 200h (91.5%)","timestamp":"2026-06-21 10:48:24"}
+{"level":"info","message":"[Scraper] Fetching login page for: abubakar22","timestamp":"2026-06-21 10:48:26"}
+{"level":"info","message":"[Scraper] Logging in as: abubakar22","timestamp":"2026-06-21 10:48:26"}
+{"level":"info","message":"[Scraper] Jehad: 171.8h / 200h (85.9%)","timestamp":"2026-06-21 10:48:26"}
+{"level":"info","message":"[Scheduler] ✅ Check cycle complete","timestamp":"2026-06-21 10:48:28"}
+{"level":"info","message":"━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━","timestamp":"2026-06-21 10:48:28"}
+{"level":"info","message":"[API] Activating account: Jehad (abubakar22)","timestamp":"2026-06-21 10:48:39"}
+{"level":"info","message":"[Router] Logging into router...","timestamp":"2026-06-21 10:48:39"}
+{"level":"warn","message":"[Router] Standard login failed, trying alternate...","timestamp":"2026-06-21 10:48:39"}
+{"level":"error","message":"[Router] Fallback failed: Request failed with status code 404","timestamp":"2026-06-21 10:48:40"}
+{"level":"error","message":"[API] Activation failed:","timestamp":"2026-06-21 10:48:40"}
+{"level":"info","message":"━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━","timestamp":"2026-06-21 11:00:00"}
+{"level":"info","message":"[Scheduler] 🔍 Starting check cycle...","timestamp":"2026-06-21 11:00:00"}
+{"level":"info","message":"[Scheduler] Active account: Lihan (tahsanlihan)","timestamp":"2026-06-21 11:00:00"}
+{"level":"info","message":"[Scraper] Fetching login page for: tahsanlihan","timestamp":"2026-06-21 11:00:00"}
+{"level":"info","message":"[Scraper] Logging in as: tahsanlihan","timestamp":"2026-06-21 11:00:00"}
+{"level":"info","message":"[Scraper] Lihan: 182.9h / 200h (91.5%)","timestamp":"2026-06-21 11:00:00"}
+{"level":"info","message":"[AccountManager] Lihan: 182.9h / 190h threshold — OK","timestamp":"2026-06-21 11:00:00"}
+{"level":"info","message":"[Scheduler] ✅ Check cycle complete","timestamp":"2026-06-21 11:00:00"}
+{"level":"info","message":"━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━","timestamp":"2026-06-21 11:00:00"}
+{"level":"info","message":"━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━","timestamp":"2026-06-21 11:05:10"}
+{"level":"info","message":"  ⚡ AntiWifi — Auto PPPoE Rotation System","timestamp":"2026-06-21 11:05:10"}
+{"level":"info","message":"  🌐 Dashboard: http://localhost:3000","timestamp":"2026-06-21 11:05:10"}
+{"level":"info","message":"  📡 Portal:    http://10.220.20.12","timestamp":"2026-06-21 11:05:10"}
+{"level":"info","message":"  📡 Router:    http://192.168.0.1","timestamp":"2026-06-21 11:05:10"}
+{"level":"info","message":"  ⏱  Interval:  every 30 minutes","timestamp":"2026-06-21 11:05:10"}
+{"level":"info","message":"  🔔 Threshold: 190 hours","timestamp":"2026-06-21 11:05:10"}
+{"level":"info","message":"  👥 Accounts:  2 configured","timestamp":"2026-06-21 11:05:10"}
+{"level":"info","message":"━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━","timestamp":"2026-06-21 11:05:10"}
+{"level":"info","message":"[Scheduler] Starting — checking every 30 minutes","timestamp":"2026-06-21 11:05:10"}
+{"level":"info","message":"[Scheduler] Rotation threshold: 190 hours","timestamp":"2026-06-21 11:05:10"}
+{"level":"info","message":"━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━","timestamp":"2026-06-21 11:05:10"}
+{"level":"info","message":"[Scheduler] 🔍 Starting check cycle...","timestamp":"2026-06-21 11:05:10"}
+{"level":"info","message":"[Scheduler] Active account: Lihan (tahsanlihan)","timestamp":"2026-06-21 11:05:10"}
+{"level":"info","message":"[Scraper] Fetching login page for: tahsanlihan","timestamp":"2026-06-21 11:05:10"}
+{"level":"info","message":"[Scheduler] Cron jobs started","timestamp":"2026-06-21 11:05:10"}
+{"level":"info","message":"[Scraper] Logging in as: tahsanlihan","timestamp":"2026-06-21 11:05:10"}
+{"level":"info","message":"[Scraper] Lihan: 182.9h / 200h (91.5%)","timestamp":"2026-06-21 11:05:10"}
+{"level":"info","message":"[AccountManager] Lihan: 182.9h / 190h threshold — OK","timestamp":"2026-06-21 11:05:10"}
+{"level":"info","message":"[Scheduler] 🔄 Refreshing all accounts usage...","timestamp":"2026-06-21 11:05:10"}
+{"level":"info","message":"[Scraper] Fetching login page for: tahsanlihan","timestamp":"2026-06-21 11:05:10"}
+{"level":"info","message":"[Scraper] Logging in as: tahsanlihan","timestamp":"2026-06-21 11:05:10"}
+{"level":"info","message":"[Scraper] Lihan: 182.9h / 200h (91.5%)","timestamp":"2026-06-21 11:05:10"}
+{"level":"info","message":"[Scraper] Fetching login page for: abubakar22","timestamp":"2026-06-21 11:05:12"}
+{"level":"info","message":"[Scraper] Logging in as: abubakar22","timestamp":"2026-06-21 11:05:14"}
+{"level":"info","message":"[Scraper] Jehad: 171.8h / 200h (85.9%)","timestamp":"2026-06-21 11:05:16"}
+{"level":"info","message":"[Scheduler] ✅ Check cycle complete","timestamp":"2026-06-21 11:05:18"}
+{"level":"info","message":"━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━","timestamp":"2026-06-21 11:05:18"}
+{"level":"info","message":"[API] Manual check triggered","timestamp":"2026-06-21 11:05:44"}
+{"level":"info","message":"━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━","timestamp":"2026-06-21 11:05:44"}
+{"level":"info","message":"[Scheduler] 🔍 Starting check cycle...","timestamp":"2026-06-21 11:05:44"}
+{"level":"info","message":"[Scheduler] Active account: Lihan (tahsanlihan)","timestamp":"2026-06-21 11:05:44"}
+{"level":"info","message":"[Scraper] Fetching login page for: tahsanlihan","timestamp":"2026-06-21 11:05:44"}
+{"level":"info","message":"[Scraper] Logging in as: tahsanlihan","timestamp":"2026-06-21 11:05:44"}
+{"level":"info","message":"[Scraper] Lihan: 182.9h / 200h (91.5%)","timestamp":"2026-06-21 11:05:44"}
+{"level":"info","message":"[AccountManager] Lihan: 182.9h / 190h threshold — OK","timestamp":"2026-06-21 11:05:44"}
+{"level":"info","message":"[Scheduler] 🔄 Refreshing all accounts usage...","timestamp":"2026-06-21 11:05:44"}
+{"level":"info","message":"[Scraper] Fetching login page for: tahsanlihan","timestamp":"2026-06-21 11:05:44"}
+{"level":"info","message":"[Scraper] Logging in as: tahsanlihan","timestamp":"2026-06-21 11:05:44"}
+{"level":"info","message":"[Scraper] Lihan: 182.9h / 200h (91.5%)","timestamp":"2026-06-21 11:05:45"}
+{"level":"info","message":"[Scraper] Fetching login page for: abubakar22","timestamp":"2026-06-21 11:05:46"}
+{"level":"info","message":"[Scraper] Logging in as: abubakar22","timestamp":"2026-06-21 11:05:46"}
+{"level":"info","message":"[Scraper] Jehad: 171.8h / 200h (85.9%)","timestamp":"2026-06-21 11:05:47"}
+{"level":"info","message":"[Scheduler] ✅ Check cycle complete","timestamp":"2026-06-21 11:05:48"}
+{"level":"info","message":"━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━","timestamp":"2026-06-21 11:05:48"}
+{"level":"info","message":"[API] Activating account: Jehad (abubakar22)","timestamp":"2026-06-21 11:05:59"}
+{"level":"info","message":"[Router] Logging into router...","timestamp":"2026-06-21 11:05:59"}
+{"level":"info","message":"[Router] Fetching RSA public key...","timestamp":"2026-06-21 11:05:59"}
+{"level":"warn","message":"[Router] RSA key fetch failed: Could not extract RSA key from router response: \"\". Trying plain text login...","timestamp":"2026-06-21 11:05:59"}
+{"level":"error","message":"[Router] updatePPPoECredentials failed: All login methods failed. Check your router admin password.","timestamp":"2026-06-21 11:05:59"}
+{"level":"error","message":"[API] Activation failed:","timestamp":"2026-06-21 11:05:59"}
+{"level":"info","message":"━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━","timestamp":"2026-06-21 11:06:23"}
+{"level":"info","message":"  ⚡ AntiWifi — Auto PPPoE Rotation System","timestamp":"2026-06-21 11:06:23"}
+{"level":"info","message":"  🌐 Dashboard: http://localhost:3000","timestamp":"2026-06-21 11:06:23"}
+{"level":"info","message":"  📡 Portal:    http://10.220.20.12","timestamp":"2026-06-21 11:06:23"}
+{"level":"info","message":"  📡 Router:    http://192.168.0.1","timestamp":"2026-06-21 11:06:23"}
+{"level":"info","message":"  ⏱  Interval:  every 30 minutes","timestamp":"2026-06-21 11:06:23"}
+{"level":"info","message":"  🔔 Threshold: 190 hours","timestamp":"2026-06-21 11:06:23"}
+{"level":"info","message":"  👥 Accounts:  2 configured","timestamp":"2026-06-21 11:06:23"}
+{"level":"info","message":"━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━","timestamp":"2026-06-21 11:06:23"}
+{"level":"info","message":"[Scheduler] Starting — checking every 30 minutes","timestamp":"2026-06-21 11:06:23"}
+{"level":"info","message":"[Scheduler] Rotation threshold: 190 hours","timestamp":"2026-06-21 11:06:23"}
+{"level":"info","message":"━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━","timestamp":"2026-06-21 11:06:23"}
+{"level":"info","message":"[Scheduler] 🔍 Starting check cycle...","timestamp":"2026-06-21 11:06:23"}
+{"level":"info","message":"[Scheduler] Active account: Lihan (tahsanlihan)","timestamp":"2026-06-21 11:06:23"}
+{"level":"info","message":"[Scraper] Fetching login page for: tahsanlihan","timestamp":"2026-06-21 11:06:23"}
+{"level":"info","message":"[Scheduler] Cron jobs started","timestamp":"2026-06-21 11:06:23"}
+{"level":"info","message":"[Scraper] Logging in as: tahsanlihan","timestamp":"2026-06-21 11:06:23"}
+{"level":"info","message":"[Scraper] Lihan: 182.9h / 200h (91.5%)","timestamp":"2026-06-21 11:06:24"}
+{"level":"info","message":"[AccountManager] Lihan: 182.9h / 190h threshold — OK","timestamp":"2026-06-21 11:06:24"}
+{"level":"info","message":"[Scheduler] 🔄 Refreshing all accounts usage...","timestamp":"2026-06-21 11:06:24"}
+{"level":"info","message":"[Scraper] Fetching login page for: tahsanlihan","timestamp":"2026-06-21 11:06:24"}
+{"level":"info","message":"[Scraper] Logging in as: tahsanlihan","timestamp":"2026-06-21 11:06:24"}
+{"level":"info","message":"[Scraper] Lihan: 182.9h / 200h (91.5%)","timestamp":"2026-06-21 11:06:24"}
+{"level":"info","message":"[Scraper] Fetching login page for: abubakar22","timestamp":"2026-06-21 11:06:26"}
+{"level":"info","message":"[Scraper] Logging in as: abubakar22","timestamp":"2026-06-21 11:06:26"}
+{"level":"info","message":"[Scraper] Jehad: 171.8h / 200h (85.9%)","timestamp":"2026-06-21 11:06:26"}
+{"level":"info","message":"[Scheduler] ✅ Check cycle complete","timestamp":"2026-06-21 11:06:28"}
+{"level":"info","message":"━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━","timestamp":"2026-06-21 11:06:28"}
+{"level":"info","message":"[API] Config updated","timestamp":"2026-06-21 11:06:56"}
+{"level":"info","message":"[API] Activating account: Jehad (abubakar22)","timestamp":"2026-06-21 11:06:59"}
+{"level":"info","message":"[Router] Logging into router...","timestamp":"2026-06-21 11:06:59"}
+{"level":"info","message":"[Router] Fetching RSA public key...","timestamp":"2026-06-21 11:06:59"}
+{"level":"warn","message":"[Router] RSA key fetch failed: Could not extract RSA key from router response: \"\". Trying plain text login...","timestamp":"2026-06-21 11:06:59"}
+{"level":"error","message":"[Router] updatePPPoECredentials failed: All login methods failed. Check your router admin password.","timestamp":"2026-06-21 11:06:59"}
+{"level":"error","message":"[API] Activation failed:","timestamp":"2026-06-21 11:06:59"}
+{"level":"info","message":"[API] Manual check triggered","timestamp":"2026-06-21 11:07:20"}
+{"level":"info","message":"━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━","timestamp":"2026-06-21 11:07:20"}
+{"level":"info","message":"[Scheduler] 🔍 Starting check cycle...","timestamp":"2026-06-21 11:07:20"}
+{"level":"info","message":"[Scheduler] Active account: Lihan (tahsanlihan)","timestamp":"2026-06-21 11:07:20"}
+{"level":"info","message":"[Scraper] Fetching login page for: tahsanlihan","timestamp":"2026-06-21 11:07:20"}
+{"level":"info","message":"[Scraper] Logging in as: tahsanlihan","timestamp":"2026-06-21 11:07:20"}
+{"level":"info","message":"[Scraper] Lihan: 182.9h / 200h (91.5%)","timestamp":"2026-06-21 11:07:20"}
+{"level":"info","message":"[AccountManager] Lihan: 182.9h / 190h threshold — OK","timestamp":"2026-06-21 11:07:20"}
+{"level":"info","message":"[Scheduler] 🔄 Refreshing all accounts usage...","timestamp":"2026-06-21 11:07:20"}
+{"level":"info","message":"[Scraper] Fetching login page for: tahsanlihan","timestamp":"2026-06-21 11:07:20"}
+{"level":"info","message":"[Scraper] Logging in as: tahsanlihan","timestamp":"2026-06-21 11:07:20"}
+{"level":"info","message":"[Scraper] Lihan: 182.9h / 200h (91.5%)","timestamp":"2026-06-21 11:07:21"}
+{"level":"info","message":"[Scraper] Fetching login page for: abubakar22","timestamp":"2026-06-21 11:07:23"}
+{"level":"info","message":"[Scraper] Logging in as: abubakar22","timestamp":"2026-06-21 11:07:23"}
+{"level":"info","message":"[Scraper] Jehad: 171.8h / 200h (85.9%)","timestamp":"2026-06-21 11:07:24"}
+{"level":"info","message":"[Scheduler] ✅ Check cycle complete","timestamp":"2026-06-21 11:07:25"}
+{"level":"info","message":"━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━","timestamp":"2026-06-21 11:07:25"}
+{"level":"info","message":"[API] Config updated","timestamp":"2026-06-21 11:08:31"}
+{"level":"info","message":"━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━","timestamp":"2026-06-21 11:09:54"}
+{"level":"info","message":"  ⚡ AntiWifi — Auto PPPoE Rotation System","timestamp":"2026-06-21 11:09:54"}
+{"level":"info","message":"  🌐 Dashboard: http://localhost:3000","timestamp":"2026-06-21 11:09:54"}
+{"level":"info","message":"  📡 Portal:    http://10.220.20.12","timestamp":"2026-06-21 11:09:54"}
+{"level":"info","message":"  📡 Router:    http://192.168.0.1","timestamp":"2026-06-21 11:09:54"}
+{"level":"info","message":"  ⏱  Interval:  every 150 minutes","timestamp":"2026-06-21 11:09:54"}
+{"level":"info","message":"  🔔 Threshold: 190 hours","timestamp":"2026-06-21 11:09:54"}
+{"level":"info","message":"  👥 Accounts:  2 configured","timestamp":"2026-06-21 11:09:54"}
+{"level":"info","message":"━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━","timestamp":"2026-06-21 11:09:54"}
+{"level":"info","message":"[Scheduler] Starting — checking every 150 minutes","timestamp":"2026-06-21 11:09:54"}
+{"level":"info","message":"[Scheduler] Rotation threshold: 190 hours","timestamp":"2026-06-21 11:09:54"}
+{"level":"info","message":"━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━","timestamp":"2026-06-21 11:09:54"}
+{"level":"info","message":"[Scheduler] 🔍 Starting check cycle...","timestamp":"2026-06-21 11:09:54"}
+{"level":"info","message":"[Scheduler] Active account: Lihan (tahsanlihan)","timestamp":"2026-06-21 11:09:54"}
+{"level":"info","message":"[Scraper] Fetching login page for: tahsanlihan","timestamp":"2026-06-21 11:09:54"}
+{"level":"info","message":"[Scheduler] Cron jobs started","timestamp":"2026-06-21 11:09:54"}
+{"level":"info","message":"[Scraper] Logging in as: tahsanlihan","timestamp":"2026-06-21 11:09:55"}
+{"level":"info","message":"[Scraper] Lihan: 182.9h / 200h (91.5%)","timestamp":"2026-06-21 11:09:55"}
+{"level":"info","message":"[AccountManager] Lihan: 182.9h / 190h threshold — OK","timestamp":"2026-06-21 11:09:55"}
+{"level":"info","message":"[Scheduler] 🔄 Refreshing all accounts usage...","timestamp":"2026-06-21 11:09:55"}
+{"level":"info","message":"[Scraper] Fetching login page for: tahsanlihan","timestamp":"2026-06-21 11:09:55"}
+{"level":"info","message":"[Scraper] Logging in as: tahsanlihan","timestamp":"2026-06-21 11:09:55"}
+{"level":"info","message":"[Scraper] Lihan: 182.9h / 200h (91.5%)","timestamp":"2026-06-21 11:09:55"}
+{"level":"info","message":"[Scraper] Fetching login page for: abubakar22","timestamp":"2026-06-21 11:09:57"}
+{"level":"info","message":"[Scraper] Logging in as: abubakar22","timestamp":"2026-06-21 11:09:57"}
+{"level":"info","message":"[Scraper] Jehad: 171.8h / 200h (85.9%)","timestamp":"2026-06-21 11:09:57"}
+{"level":"info","message":"[Scheduler] ✅ Check cycle complete","timestamp":"2026-06-21 11:09:59"}
+{"level":"info","message":"━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━","timestamp":"2026-06-21 11:09:59"}
+{"level":"info","message":"━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━","timestamp":"2026-06-21 11:11:06"}
+{"level":"info","message":"  ⚡ AntiWifi — Auto PPPoE Rotation System","timestamp":"2026-06-21 11:11:06"}
+{"level":"info","message":"  🌐 Dashboard: http://localhost:3000","timestamp":"2026-06-21 11:11:06"}
+{"level":"info","message":"  📡 Portal:    http://10.220.20.12","timestamp":"2026-06-21 11:11:06"}
+{"level":"info","message":"  📡 Router:    http://192.168.0.1","timestamp":"2026-06-21 11:11:06"}
+{"level":"info","message":"  ⏱  Interval:  every 150 minutes","timestamp":"2026-06-21 11:11:06"}
+{"level":"info","message":"  🔔 Threshold: 190 hours","timestamp":"2026-06-21 11:11:06"}
+{"level":"info","message":"  👥 Accounts:  2 configured","timestamp":"2026-06-21 11:11:06"}
+{"level":"info","message":"━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━","timestamp":"2026-06-21 11:11:06"}
+{"level":"info","message":"[Scheduler] Starting — checking every 150 minutes","timestamp":"2026-06-21 11:11:06"}
+{"level":"info","message":"[Scheduler] Rotation threshold: 190 hours","timestamp":"2026-06-21 11:11:06"}
+{"level":"info","message":"━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━","timestamp":"2026-06-21 11:11:06"}
+{"level":"info","message":"[Scheduler] 🔍 Starting check cycle...","timestamp":"2026-06-21 11:11:06"}
+{"level":"info","message":"[Scheduler] Active account: Lihan (tahsanlihan)","timestamp":"2026-06-21 11:11:06"}
+{"level":"info","message":"[Scraper] Fetching login page for: tahsanlihan","timestamp":"2026-06-21 11:11:06"}
+{"level":"info","message":"[Scheduler] Cron jobs started","timestamp":"2026-06-21 11:11:06"}
+{"level":"info","message":"[Scraper] Logging in as: tahsanlihan","timestamp":"2026-06-21 11:11:06"}
+{"level":"info","message":"[Scraper] Lihan: 182.9h / 200h (91.5%)","timestamp":"2026-06-21 11:11:06"}
+{"level":"info","message":"[AccountManager] Lihan: 182.9h / 190h threshold — OK","timestamp":"2026-06-21 11:11:06"}
+{"level":"info","message":"[Scheduler] 🔄 Refreshing all accounts usage...","timestamp":"2026-06-21 11:11:06"}
+{"level":"info","message":"[Scraper] Fetching login page for: tahsanlihan","timestamp":"2026-06-21 11:11:06"}
+{"level":"info","message":"[Scraper] Logging in as: tahsanlihan","timestamp":"2026-06-21 11:11:07"}
+{"level":"info","message":"[Scraper] Lihan: 182.9h / 200h (91.5%)","timestamp":"2026-06-21 11:11:07"}
+{"level":"info","message":"[Scraper] Fetching login page for: abubakar22","timestamp":"2026-06-21 11:11:08"}
+{"level":"info","message":"[Scraper] Logging in as: abubakar22","timestamp":"2026-06-21 11:11:08"}
+{"level":"info","message":"[Scraper] Jehad: 171.8h / 200h (85.9%)","timestamp":"2026-06-21 11:11:09"}
+{"level":"info","message":"[Scheduler] ✅ Check cycle complete","timestamp":"2026-06-21 11:11:10"}
+{"level":"info","message":"━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━","timestamp":"2026-06-21 11:11:10"}
+{"level":"info","message":"[API] Logged out — all accounts cleared","timestamp":"2026-06-21 11:11:17"}
+{"level":"info","message":"━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━","timestamp":"2026-06-21 11:15:00"}
+{"level":"info","message":"  ⚡ AntiWifi — Auto PPPoE Rotation System","timestamp":"2026-06-21 11:15:00"}
+{"level":"info","message":"  🌐 Dashboard: http://localhost:3000","timestamp":"2026-06-21 11:15:00"}
+{"level":"info","message":"  📡 Portal:    http://10.220.20.12","timestamp":"2026-06-21 11:15:00"}
+{"level":"info","message":"  📡 Router:    http://192.168.0.1","timestamp":"2026-06-21 11:15:00"}
+{"level":"info","message":"  ⏱  Interval:  every 150 minutes","timestamp":"2026-06-21 11:15:00"}
+{"level":"info","message":"  🔔 Threshold: 190 hours","timestamp":"2026-06-21 11:15:00"}
+{"level":"info","message":"  👥 Accounts:  0 configured","timestamp":"2026-06-21 11:15:00"}
+{"level":"info","message":"━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━","timestamp":"2026-06-21 11:15:00"}
+{"level":"info","message":"[Scheduler] Starting — checking every 150 minutes","timestamp":"2026-06-21 11:15:00"}
+{"level":"info","message":"[Scheduler] Rotation threshold: 190 hours","timestamp":"2026-06-21 11:15:00"}
+{"level":"info","message":"━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━","timestamp":"2026-06-21 11:15:00"}
+{"level":"info","message":"[Scheduler] 🔍 Starting check cycle...","timestamp":"2026-06-21 11:15:00"}
+{"level":"info","message":"[Scheduler] No accounts configured yet. Skipping check cycle.","timestamp":"2026-06-21 11:15:00"}
+{"level":"info","message":"[Scheduler] ✅ Check cycle complete","timestamp":"2026-06-21 11:15:00"}
+{"level":"info","message":"━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━","timestamp":"2026-06-21 11:15:00"}
+{"level":"info","message":"[Scheduler] Cron jobs started","timestamp":"2026-06-21 11:15:00"}
+{"level":"info","message":"[API] Config updated","timestamp":"2026-06-21 11:15:28"}
+{"level":"info","message":"[API] Account added: Neel (subarnoneel)","timestamp":"2026-06-21 11:16:13"}
+{"level":"info","message":"[API] Account added: Lihan (tahsanlihan)","timestamp":"2026-06-21 11:16:36"}
+{"level":"info","message":"[API] Manual check triggered","timestamp":"2026-06-21 11:16:36"}
+{"level":"info","message":"━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━","timestamp":"2026-06-21 11:16:36"}
+{"level":"info","message":"[Scheduler] 🔍 Starting check cycle...","timestamp":"2026-06-21 11:16:36"}
+{"level":"info","message":"[Scheduler] Active account: Neel (subarnoneel)","timestamp":"2026-06-21 11:16:36"}
+{"level":"info","message":"[Scraper] Fetching login page for: subarnoneel","timestamp":"2026-06-21 11:16:36"}
+{"level":"info","message":"[Scraper] Logging in as: subarnoneel","timestamp":"2026-06-21 11:16:36"}
+{"level":"error","message":"[Scraper] Failed for subarnoneel: Request failed with status code 401","timestamp":"2026-06-21 11:16:37"}
+{"level":"info","message":"[Scheduler] 🔄 Refreshing all accounts usage...","timestamp":"2026-06-21 11:16:37"}
+{"level":"info","message":"[Scraper] Fetching login page for: subarnoneel","timestamp":"2026-06-21 11:16:37"}
+{"level":"info","message":"[Scraper] Logging in as: subarnoneel","timestamp":"2026-06-21 11:16:37"}
+{"level":"error","message":"[Scraper] Failed for subarnoneel: Request failed with status code 401","timestamp":"2026-06-21 11:16:37"}
+{"level":"info","message":"[Scraper] Fetching login page for: tahsanlihan","timestamp":"2026-06-21 11:16:39"}
+{"level":"info","message":"[Scraper] Logging in as: tahsanlihan","timestamp":"2026-06-21 11:16:39"}
+{"level":"info","message":"[Scraper] Lihan: 182.9h / 200h (91.5%)","timestamp":"2026-06-21 11:16:40"}
+{"level":"info","message":"[Scheduler] ✅ Check cycle complete","timestamp":"2026-06-21 11:16:41"}
+{"level":"info","message":"━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━","timestamp":"2026-06-21 11:16:41"}
+{"level":"info","message":"[API] Account added: Multa (multazam)","timestamp":"2026-06-21 11:17:15"}
+{"level":"info","message":"[API] Manual check triggered","timestamp":"2026-06-21 11:17:15"}
+{"level":"info","message":"━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━","timestamp":"2026-06-21 11:17:15"}
+{"level":"info","message":"[Scheduler] 🔍 Starting check cycle...","timestamp":"2026-06-21 11:17:15"}
+{"level":"info","message":"[Scheduler] Active account: Neel (subarnoneel)","timestamp":"2026-06-21 11:17:15"}
+{"level":"info","message":"[Scraper] Fetching login page for: subarnoneel","timestamp":"2026-06-21 11:17:15"}
+{"level":"info","message":"[Scraper] Logging in as: subarnoneel","timestamp":"2026-06-21 11:17:16"}
+{"level":"error","message":"[Scraper] Failed for subarnoneel: Request failed with status code 401","timestamp":"2026-06-21 11:17:16"}
+{"level":"info","message":"[Scheduler] 🔄 Refreshing all accounts usage...","timestamp":"2026-06-21 11:17:16"}
+{"level":"info","message":"[Scraper] Fetching login page for: subarnoneel","timestamp":"2026-06-21 11:17:16"}
+{"level":"info","message":"[Scraper] Logging in as: subarnoneel","timestamp":"2026-06-21 11:17:16"}
+{"level":"error","message":"[Scraper] Failed for subarnoneel: Request failed with status code 401","timestamp":"2026-06-21 11:17:16"}
+{"level":"info","message":"[Scraper] Fetching login page for: tahsanlihan","timestamp":"2026-06-21 11:17:18"}
+{"level":"info","message":"[Scraper] Logging in as: tahsanlihan","timestamp":"2026-06-21 11:17:18"}
+{"level":"info","message":"[Scraper] Lihan: 182.9h / 200h (91.5%)","timestamp":"2026-06-21 11:17:18"}
+{"level":"info","message":"[Scraper] Fetching login page for: multazam","timestamp":"2026-06-21 11:17:20"}
+{"level":"info","message":"[Scraper] Logging in as: multazam","timestamp":"2026-06-21 11:17:20"}
+{"level":"info","message":"[Scraper] Multa: 9.2h / 200h (4.6%)","timestamp":"2026-06-21 11:17:20"}
+{"level":"info","message":"[API] Account removed: Neel (subarnoneel)","timestamp":"2026-06-21 11:17:22"}
+{"level":"info","message":"[Scheduler] ✅ Check cycle complete","timestamp":"2026-06-21 11:17:22"}
+{"level":"info","message":"━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━","timestamp":"2026-06-21 11:17:22"}
+{"level":"info","message":"[API] Activating account: Multa (multazam)","timestamp":"2026-06-21 11:17:31"}
+{"level":"info","message":"[Router] Logging into router...","timestamp":"2026-06-21 11:17:31"}
+{"level":"info","message":"[Router] Fetching RSA public key...","timestamp":"2026-06-21 11:17:31"}
+{"level":"warn","message":"[Router] RSA key fetch failed: Could not extract RSA key. Response: \"00005\\r\\n\". Trying plain text login...","timestamp":"2026-06-21 11:17:31"}
+{"level":"error","message":"[Router] updatePPPoECredentials failed: All login methods failed. Check your router admin password.","timestamp":"2026-06-21 11:17:31"}
+{"level":"error","message":"[API] Activation failed:","timestamp":"2026-06-21 11:17:31"}
+{"level":"info","message":"[Router] Launching browser to update PPPoE → tahsanlihan","timestamp":"2026-06-21 11:51:06"}
+{"level":"error","message":"[Router] Puppeteer automation failed: Could not find Chrome (ver. 149.0.7827.22). This can occur if either\n 1. you did not perform an installation before running the script (e.g. `npx puppeteer browsers install chrome`) or\n 2. your cache path is incorrectly configured (which is: C:\\Users\\User\\.cache\\puppeteer).\nFor (2), check out our guide on configuring puppeteer at https://pptr.dev/guides/configuration.","timestamp":"2026-06-21 11:51:06"}
+{"level":"info","message":"━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━","timestamp":"2026-06-21 12:02:38"}
+{"level":"info","message":"  ⚡ AntiWifi — Auto PPPoE Rotation System","timestamp":"2026-06-21 12:02:38"}
+{"level":"info","message":"  🌐 Dashboard: http://localhost:3000","timestamp":"2026-06-21 12:02:38"}
+{"level":"info","message":"  📡 Portal:    http://10.220.20.12","timestamp":"2026-06-21 12:02:38"}
+{"level":"info","message":"  📡 Router:    http://192.168.0.1","timestamp":"2026-06-21 12:02:38"}
+{"level":"info","message":"  ⏱  Interval:  every 150 minutes","timestamp":"2026-06-21 12:02:38"}
+{"level":"info","message":"  🔔 Threshold: 190 hours","timestamp":"2026-06-21 12:02:38"}
+{"level":"info","message":"  👥 Accounts:  2 configured","timestamp":"2026-06-21 12:02:38"}
+{"level":"info","message":"━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━","timestamp":"2026-06-21 12:02:38"}
+{"level":"info","message":"[Scheduler] Starting — checking every 150 minutes","timestamp":"2026-06-21 12:02:38"}
+{"level":"info","message":"[Scheduler] Rotation threshold: 190 hours","timestamp":"2026-06-21 12:02:38"}
+{"level":"info","message":"━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━","timestamp":"2026-06-21 12:02:38"}
+{"level":"info","message":"[Scheduler] 🔍 Starting check cycle...","timestamp":"2026-06-21 12:02:38"}
+{"level":"info","message":"[Scheduler] Active account: Lihan (tahsanlihan)","timestamp":"2026-06-21 12:02:38"}
+{"level":"info","message":"[Scraper] Fetching login page for: tahsanlihan","timestamp":"2026-06-21 12:02:38"}
+{"level":"info","message":"[Scheduler] Cron jobs started","timestamp":"2026-06-21 12:02:38"}
+{"level":"info","message":"[Scraper] Logging in as: tahsanlihan","timestamp":"2026-06-21 12:02:38"}
+{"level":"info","message":"[Scraper] Lihan: 182.9h / 200h (91.5%)","timestamp":"2026-06-21 12:02:38"}
+{"level":"info","message":"[AccountManager] Lihan: 182.9h / 190h threshold — OK","timestamp":"2026-06-21 12:02:38"}
+{"level":"info","message":"[Scheduler] 🔄 Refreshing all accounts usage...","timestamp":"2026-06-21 12:02:38"}
+{"level":"info","message":"[Scraper] Fetching login page for: tahsanlihan","timestamp":"2026-06-21 12:02:38"}
+{"level":"info","message":"[Scraper] Logging in as: tahsanlihan","timestamp":"2026-06-21 12:02:38"}
+{"level":"info","message":"[Scraper] Lihan: 182.9h / 200h (91.5%)","timestamp":"2026-06-21 12:02:38"}
+{"level":"info","message":"[Scraper] Fetching login page for: multazam","timestamp":"2026-06-21 12:02:40"}
+{"level":"info","message":"[Scraper] Logging in as: multazam","timestamp":"2026-06-21 12:02:40"}
+{"level":"info","message":"[Scraper] Multa: 9.2h / 200h (4.6%)","timestamp":"2026-06-21 12:02:40"}
+{"level":"info","message":"[Scheduler] ✅ Check cycle complete","timestamp":"2026-06-21 12:02:42"}
+{"level":"info","message":"━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━","timestamp":"2026-06-21 12:02:42"}
+{"level":"info","message":"[API] Activating account: Multa (multazam)","timestamp":"2026-06-21 12:02:52"}
+{"level":"info","message":"[Router] Launching browser to update PPPoE → multazam","timestamp":"2026-06-21 12:02:52"}
+{"level":"error","message":"[Router] Puppeteer automation failed: Could not find Chrome (ver. 149.0.7827.22). This can occur if either\n 1. you did not perform an installation before running the script (e.g. `npx puppeteer browsers install chrome`) or\n 2. your cache path is incorrectly configured (which is: C:\\Users\\User\\.cache\\puppeteer).\nFor (2), check out our guide on configuring puppeteer at https://pptr.dev/guides/configuration.","timestamp":"2026-06-21 12:02:52"}
+{"level":"error","message":"[API] Activation failed:","timestamp":"2026-06-21 12:02:52"}
+{"level":"info","message":"[AntiWifi] Shutting down gracefully...","timestamp":"2026-06-21 12:03:22"}
+{"level":"info","message":"[Router] Launching browser to update PPPoE → tahsanlihan","timestamp":"2026-06-21 12:17:27"}
+{"level":"info","message":"[Router] Opening login page...","timestamp":"2026-06-21 12:17:49"}
+{"level":"info","message":"[Router] Entering admin password...","timestamp":"2026-06-21 12:17:51"}
+{"level":"info","message":"[Router] Waiting for login to complete...","timestamp":"2026-06-21 12:17:52"}
+{"level":"info","message":"[Router] Logged in. Navigating to Internet settings...","timestamp":"2026-06-21 12:18:00"}
+{"level":"info","message":"[Router] Looking for PPPoE Username field...","timestamp":"2026-06-21 12:18:03"}
+{"level":"error","message":"[Router] Puppeteer automation failed: Could not find PPPoE Username input field. Router page may have changed.","timestamp":"2026-06-21 12:18:03"}
+{"level":"info","message":"[Router] Launching browser to update PPPoE → tahsanlihan","timestamp":"2026-06-21 12:23:48"}
+{"level":"info","message":"[Router] Opening login page...","timestamp":"2026-06-21 12:23:48"}
+{"level":"info","message":"[Router] Entering admin password...","timestamp":"2026-06-21 12:23:50"}
+{"level":"info","message":"[Router] Waiting for login to complete...","timestamp":"2026-06-21 12:23:51"}
+{"level":"info","message":"[Router] Logged in. Navigating to Internet settings...","timestamp":"2026-06-21 12:23:59"}
+{"level":"info","message":"[Router] Looking for PPPoE Username field...","timestamp":"2026-06-21 12:24:01"}
+{"level":"info","message":"[Router] Entered username: tahsanlihan","timestamp":"2026-06-21 12:24:02"}
+{"level":"info","message":"[Router] Looking for PPPoE Password field...","timestamp":"2026-06-21 12:24:02"}
+{"level":"info","message":"[Router] Entered PPPoE password.","timestamp":"2026-06-21 12:24:02"}
+{"level":"info","message":"[Router] Clicking Save...","timestamp":"2026-06-21 12:24:02"}
+{"level":"info","message":"[Router] Save clicked. Waiting for router to apply...","timestamp":"2026-06-21 12:24:02"}
+{"level":"info","message":"[Router] ✅ PPPoE credentials updated → tahsanlihan","timestamp":"2026-06-21 12:24:05"}
+{"level":"info","message":"[Router] Launching browser to update PPPoE → tahsanlihan","timestamp":"2026-06-21 12:28:05"}
+{"level":"info","message":"[Router] Opening login page...","timestamp":"2026-06-21 12:28:06"}
+{"level":"info","message":"[Router] Entering admin password...","timestamp":"2026-06-21 12:28:08"}
+{"level":"info","message":"[Router] Waiting for login to complete...","timestamp":"2026-06-21 12:28:08"}
+{"level":"info","message":"[Router] Logged in. Navigating to Internet settings...","timestamp":"2026-06-21 12:28:15"}
+{"level":"info","message":"[Router] Looking for PPPoE Username field...","timestamp":"2026-06-21 12:28:18"}
+{"level":"info","message":"[Router] Entered username: tahsanlihan","timestamp":"2026-06-21 12:28:18"}
+{"level":"info","message":"[Router] Looking for PPPoE Password field...","timestamp":"2026-06-21 12:28:18"}
+{"level":"info","message":"[Router] Entered PPPoE password.","timestamp":"2026-06-21 12:28:19"}
+{"level":"info","message":"[Router] Clicking Save...","timestamp":"2026-06-21 12:28:19"}
+{"level":"info","message":"[Router] Save clicked. Waiting for router to apply...","timestamp":"2026-06-21 12:28:19"}
+{"level":"info","message":"[Router] ✅ PPPoE credentials updated → tahsanlihan","timestamp":"2026-06-21 12:28:22"}
+{"level":"info","message":"━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━","timestamp":"2026-06-21 12:30:20"}
+{"level":"info","message":"  ⚡ AntiWifi — Auto PPPoE Rotation System","timestamp":"2026-06-21 12:30:20"}
+{"level":"info","message":"  🌐 Dashboard: http://localhost:3000","timestamp":"2026-06-21 12:30:20"}
+{"level":"info","message":"  📡 Portal:    http://10.220.20.12","timestamp":"2026-06-21 12:30:20"}
+{"level":"info","message":"  📡 Router:    http://192.168.0.1","timestamp":"2026-06-21 12:30:20"}
+{"level":"info","message":"  ⏱  Interval:  every 150 minutes","timestamp":"2026-06-21 12:30:20"}
+{"level":"info","message":"  🔔 Threshold: 190 hours","timestamp":"2026-06-21 12:30:20"}
+{"level":"info","message":"  👥 Accounts:  2 configured","timestamp":"2026-06-21 12:30:20"}
+{"level":"info","message":"━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━","timestamp":"2026-06-21 12:30:20"}
+{"level":"info","message":"[Scheduler] Starting — checking every 150 minutes","timestamp":"2026-06-21 12:30:20"}
+{"level":"info","message":"[Scheduler] Rotation threshold: 190 hours","timestamp":"2026-06-21 12:30:20"}
+{"level":"info","message":"━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━","timestamp":"2026-06-21 12:30:20"}
+{"level":"info","message":"[Scheduler] 🔍 Starting check cycle...","timestamp":"2026-06-21 12:30:20"}
+{"level":"info","message":"[Scheduler] Active account: Lihan (tahsanlihan)","timestamp":"2026-06-21 12:30:20"}
+{"level":"info","message":"[Scraper] Fetching login page for: tahsanlihan","timestamp":"2026-06-21 12:30:20"}
+{"level":"info","message":"[Scheduler] Cron jobs started","timestamp":"2026-06-21 12:30:20"}
+{"level":"info","message":"[Scraper] Logging in as: tahsanlihan","timestamp":"2026-06-21 12:30:20"}
+{"level":"info","message":"[Scraper] Lihan: 182.9h / 200h (91.5%)","timestamp":"2026-06-21 12:30:21"}
+{"level":"info","message":"[AccountManager] Lihan: 182.9h / 190h threshold — OK","timestamp":"2026-06-21 12:30:21"}
+{"level":"info","message":"[Scheduler] 🔄 Refreshing all accounts usage...","timestamp":"2026-06-21 12:30:21"}
+{"level":"info","message":"[Scraper] Fetching login page for: tahsanlihan","timestamp":"2026-06-21 12:30:21"}
+{"level":"info","message":"[Scraper] Logging in as: tahsanlihan","timestamp":"2026-06-21 12:30:22"}
+{"level":"info","message":"[Scraper] Lihan: 182.9h / 200h (91.5%)","timestamp":"2026-06-21 12:30:22"}
+{"level":"info","message":"[Scraper] Fetching login page for: multazam","timestamp":"2026-06-21 12:30:24"}
+{"level":"info","message":"[Scraper] Logging in as: multazam","timestamp":"2026-06-21 12:30:24"}
+{"level":"info","message":"[Scraper] Multa: 9.2h / 200h (4.6%)","timestamp":"2026-06-21 12:30:24"}
+{"level":"info","message":"[Scheduler] ✅ Check cycle complete","timestamp":"2026-06-21 12:30:26"}
+{"level":"info","message":"━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━","timestamp":"2026-06-21 12:30:26"}
+{"level":"info","message":"[API] Activating account: Multa (multazam)","timestamp":"2026-06-21 12:30:29"}
+{"level":"info","message":"[Router] Launching browser to update PPPoE → multazam","timestamp":"2026-06-21 12:30:29"}
+{"level":"info","message":"[Router] Opening login page...","timestamp":"2026-06-21 12:30:31"}
+{"level":"info","message":"[Router] Entering admin password...","timestamp":"2026-06-21 12:30:35"}
+{"level":"info","message":"[Router] Waiting for login to complete...","timestamp":"2026-06-21 12:30:36"}
+{"level":"info","message":"[Router] Logged in. Navigating to Internet settings...","timestamp":"2026-06-21 12:30:48"}
+{"level":"info","message":"[Router] Looking for PPPoE Username field...","timestamp":"2026-06-21 12:30:50"}
+{"level":"info","message":"[Router] Entered username: multazam","timestamp":"2026-06-21 12:30:51"}
+{"level":"info","message":"[Router] Looking for PPPoE Password field...","timestamp":"2026-06-21 12:30:51"}
+{"level":"info","message":"[Router] Entered PPPoE password.","timestamp":"2026-06-21 12:30:52"}
+{"level":"info","message":"[Router] Clicking Save...","timestamp":"2026-06-21 12:30:52"}
+{"level":"info","message":"[Router] Save clicked. Waiting for router to apply...","timestamp":"2026-06-21 12:30:52"}
+{"level":"info","message":"[Router] ✅ PPPoE credentials updated → multazam","timestamp":"2026-06-21 12:30:55"}
+{"level":"info","message":"[AccountManager] 🔄 Rotated: unknown → Multa (Manual activation via dashboard)","timestamp":"2026-06-21 12:30:56"}
+{"level":"info","message":"[API] ✅ Activated: Multa","timestamp":"2026-06-21 12:30:56"}

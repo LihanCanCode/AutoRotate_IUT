@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>AntiWifi — WiFi Usage Manager</title>
+  <meta name="description" content="Automatic PPPoE credential rotation dashboard for university WiFi management" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <!-- Background -->
+  <div class="bg-grid"></div>
+  <div class="orb orb-1"></div>
+  <div class="orb orb-2"></div>
+  <div class="orb orb-3"></div>
+
+  <!-- ══════════════════════════════════════════════════════════════════════ -->
+  <!-- ONBOARDING SCREEN (shown when no accounts configured)                 -->
+  <!-- ══════════════════════════════════════════════════════════════════════ -->
+  <div class="onboarding-overlay" id="onboardingOverlay">
+    <div class="onboarding glass">
+      <div class="onboarding-logo">
+        <div class="logo-icon">⚡</div>
+        <div class="logo-title">AntiWifi</div>
+        <div class="logo-sub">Auto PPPoE Rotation System</div>
+      </div>
+
+      <div class="onboarding-steps">
+        <!-- Step indicator -->
+        <div class="step-indicator" id="stepIndicator">
+          <div class="step-dot active" id="dot1"></div>
+          <div class="step-line"></div>
+          <div class="step-dot" id="dot2"></div>
+          <div class="step-line"></div>
+          <div class="step-dot" id="dot3"></div>
+        </div>
+
+        <!-- Step 1: Intro -->
+        <div class="onboard-step" id="step1">
+          <h2 class="onboard-title">Welcome to AntiWifi</h2>
+          <p class="onboard-desc">Automatically rotate university WiFi accounts to share the 200-hour limit fairly across your room. Let's set up your accounts.</p>
+          <div class="onboard-features">
+            <div class="feature-pill">📡 Auto-detect usage</div>
+            <div class="feature-pill">🔄 Smart rotation</div>
+            <div class="feature-pill">⚡ One-click activation</div>
+          </div>
+          <button class="btn btn-primary btn-lg" id="btnStartSetup">Get Started →</button>
+        </div>
+
+        <!-- Step 2: Router Config -->
+        <div class="onboard-step hidden" id="step2">
+          <h2 class="onboard-title">Router Settings</h2>
+          <p class="onboard-desc">Enter your TP-Link Archer C64 local admin password. This is the <strong>local password only</strong> — no username needed.</p>
+          <div class="form-group">
+            <label class="form-label">Router URL</label>
+            <input type="text" id="routerUrl" class="form-input" value="http://192.168.0.1" placeholder="http://192.168.0.1" />
+          </div>
+          <div class="form-group">
+            <label class="form-label">Router Local Password</label>
+            <input type="password" id="routerPass" class="form-input" placeholder="Your router admin password" />
+          </div>
+          <div class="btn-row">
+            <button class="btn btn-ghost" id="btnBackToStep1">← Back</button>
+            <button class="btn btn-primary" id="btnToStep3">Continue →</button>
+          </div>
+        </div>
+
+        <!-- Step 3: Add Accounts -->
+        <div class="onboard-step hidden" id="step3">
+          <h2 class="onboard-title">Add WiFi Accounts</h2>
+          <p class="onboard-desc">Add your roommates' university portal credentials. You can add more later from the dashboard.</p>
+
+          <div class="add-account-form">
+            <div class="form-group">
+              <label class="form-label">Owner Name (e.g. "Tahsan")</label>
+              <input type="text" id="newOwner" class="form-input" placeholder="Your name" />
+            </div>
+            <div class="form-row">
+              <div class="form-group">
+                <label class="form-label">Portal Username</label>
+                <input type="text" id="newUsername" class="form-input" placeholder="tahsanlihan" autocomplete="off" />
+              </div>
+              <div class="form-group">
+                <label class="form-label">Portal Password</label>
+                <input type="password" id="newPassword" class="form-input" placeholder="••••••••" autocomplete="new-password" />
+              </div>
+            </div>
+            <button class="btn btn-secondary btn-full" id="btnAddOnboardAccount">+ Add Account</button>
+          </div>
+
+          <div class="added-accounts-list" id="onboardAccountsList">
+            <div class="empty-state-sm">No accounts added yet</div>
+          </div>
+
+          <div class="btn-row">
+            <button class="btn btn-ghost" id="btnBackToStep2">← Back</button>
+            <button class="btn btn-primary" id="btnFinishSetup" disabled>Finish Setup →</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- ══════════════════════════════════════════════════════════════════════ -->
+  <!-- MAIN DASHBOARD                                                         -->
+  <!-- ══════════════════════════════════════════════════════════════════════ -->
+  <div class="app hidden" id="mainApp">
+    <!-- Header -->
+    <header class="header">
+      <div class="header-left">
+        <div class="logo">
+          <div class="logo-icon">⚡</div>
+          <div>
+            <div class="logo-title">AntiWifi</div>
+            <div class="logo-sub">Auto PPPoE Rotation</div>
+          </div>
+        </div>
+      </div>
+      <div class="header-center">
+        <div class="status-pill" id="systemStatus">
+          <span class="pulse-dot"></span>
+          <span id="statusText">Connecting...</span>
+        </div>
+      </div>
+      <div class="header-right">
+        <div class="last-checked" id="lastChecked">—</div>
+        <button class="btn btn-ghost" id="btnRefreshAll">↻ Refresh All</button>
+        <button class="btn btn-secondary" id="btnAddAccountHeader">+ Add Account</button>
+        <button class="btn btn-logout" id="btnLogout">&#x2715; Logout</button>
+      </div>
+    </header>
+
+    <main class="main">
+      <!-- Active Account Banner -->
+      <section class="active-banner glass" id="activeBanner">
+        <div class="active-banner-inner">
+          <div>
+            <div class="active-banner-label">🟢 Currently Active on Router</div>
+            <div class="active-banner-name" id="activeOwner">No Active Account</div>
+            <div class="active-banner-user" id="activeUsername">—</div>
+          </div>
+          <div class="active-banner-stats">
+            <div class="stat-item">
+              <div class="stat-val" id="activeHours">—</div>
+              <div class="stat-label">Hours Used</div>
+            </div>
+            <div class="stat-item">
+              <div class="stat-val" id="activeRemaining">—</div>
+              <div class="stat-label">Hours Left</div>
+            </div>
+            <div class="stat-item">
+              <div class="stat-val" id="activePercent">—</div>
+              <div class="stat-label">Usage</div>
+            </div>
+            <div class="stat-item">
+              <div class="stat-val" id="activeThreshold">—</div>
+              <div class="stat-label">Threshold</div>
+            </div>
+          </div>
+        </div>
+        <div class="active-progress-track">
+          <div class="active-progress-bar" id="activeProgressBar" style="width:0%"></div>
+        </div>
+      </section>
+
+      <!-- Accounts Grid -->
+      <section class="section">
+        <div class="section-header">
+          <h2 class="section-title">All Accounts</h2>
+          <span class="section-badge" id="accountCount">0 accounts</span>
+        </div>
+        <div class="accounts-grid" id="accountsGrid">
+          <!-- Injected by JS -->
+        </div>
+      </section>
+
+      <!-- Bottom Grid: Config + History + Logs -->
+      <div class="bottom-grid">
+        <!-- Config Panel -->
+        <section class="glass panel config-panel">
+          <h3 class="panel-title">⚙️ Settings</h3>
+          <div class="config-form">
+            <label class="config-label">
+              Rotation Threshold (hours)
+              <input type="number" id="cfgThreshold" class="config-input" min="1" max="200" value="190" />
+            </label>
+            <label class="config-label">
+              Check Interval (minutes)
+              <input type="number" id="cfgInterval" class="config-input" min="5" max="180" value="30" />
+            </label>
+            <label class="config-label">
+              Router Local Password
+              <input type="password" id="cfgRouterPass" class="config-input" placeholder="Leave blank to keep current" />
+            </label>
+            <button class="btn btn-primary" id="btnSaveConfig">Save Settings</button>
+          </div>
+          <div class="config-divider"></div>
+          <h3 class="panel-title">🔄 Manual Actions</h3>
+          <div class="action-buttons">
+            <button class="btn btn-secondary" id="btnCheckNow">Check Active Account</button>
+            <button class="btn btn-secondary" id="btnRefreshAllFull">Refresh All Accounts</button>
+          </div>
+        </section>
+
+        <!-- Rotation History -->
+        <section class="glass panel history-panel">
+          <h3 class="panel-title">📋 Rotation History</h3>
+          <div class="history-list" id="historyList">
+            <div class="empty-state">No rotations yet</div>
+          </div>
+        </section>
+
+        <!-- Live Logs -->
+        <section class="glass panel logs-panel">
+          <h3 class="panel-title">📡 Live Logs</h3>
+          <div class="logs-container" id="logsContainer">
+            <div class="empty-state">Loading logs...</div>
+          </div>
+        </section>
+      </div>
+    </main>
+  </div>
+
+  <!-- ══════════════════════════════════════════════════════════════════════ -->
+  <!-- ADD ACCOUNT MODAL (in-dashboard)                                       -->
+  <!-- ══════════════════════════════════════════════════════════════════════ -->
+  <div class="modal-overlay" id="addAccountModal">
+    <div class="modal glass">
+      <div class="modal-icon">👤</div>
+      <h3 class="modal-title">Add WiFi Account</h3>
+      <p class="modal-body">Enter the university portal credentials for this account.</p>
+      <div class="form-group">
+        <label class="form-label">Owner Name</label>
+        <input type="text" id="modalOwner" class="form-input" placeholder="e.g. Tahsan" />
+      </div>
+      <div class="form-group" style="margin-top:12px">
+        <label class="form-label">Portal Username</label>
+        <input type="text" id="modalUsername" class="form-input" placeholder="tahsanlihan" autocomplete="off" />
+      </div>
+      <div class="form-group" style="margin-top:12px">
+        <label class="form-label">Portal Password</label>
+        <input type="password" id="modalPassword" class="form-input" placeholder="••••••••" autocomplete="new-password" />
+      </div>
+      <div class="modal-error hidden" id="modalError"></div>
+      <div class="btn-row" style="margin-top:20px">
+        <button class="btn btn-ghost" id="btnCancelAddAccount">Cancel</button>
+        <button class="btn btn-primary" id="btnConfirmAddAccount">Add Account</button>
+      </div>
+    </div>
+  </div>
+
+  <!-- ══════════════════════════════════════════════════════════════════════ -->
+  <!-- ACTIVATE MODAL (progress modal for router update)                      -->
+  <!-- ══════════════════════════════════════════════════════════════════════ -->
+  <div class="modal-overlay" id="activateModal">
+    <div class="modal glass">
+      <div class="modal-icon" id="activateIcon">⚡</div>
+      <h3 class="modal-title" id="activateTitle">Activating Connection...</h3>
+      <p class="modal-body" id="activateBody">Connecting to router at 192.168.0.1 and updating PPPoE credentials.</p>
+      <div class="modal-progress" id="activateProgress">
+        <div class="modal-progress-bar" id="activateProgressBar"></div>
+      </div>
+      <button class="btn btn-ghost" id="btnCloseActivate" style="display:none">Close</button>
+    </div>
+  </div>
+
+  <script src="app.js"></script>
+</body>
+</html>

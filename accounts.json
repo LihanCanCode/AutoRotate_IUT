@@ -1,0 +1,23 @@
+{
+  "threshold_hours": 190,
+  "check_interval_minutes": 150,
+  "router": {
+    "url": "http://192.168.0.1",
+    "username": "admin",
+    "password": "room304"
+  },
+  "accounts": [
+    {
+      "id": 2,
+      "owner": "Lihan",
+      "username": "tahsanlihan",
+      "password": "Tahhan65"
+    },
+    {
+      "id": 3,
+      "owner": "Multa",
+      "username": "multazam",
+      "password": "Mulmud743"
+    }
+  ]
+}
