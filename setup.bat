@@ -38,10 +38,24 @@ echo.
 echo [3/3] Setup complete!
 echo.
 echo ============================================
-echo  NEXT STEP: Run start.bat to start the
-echo  server, then open http://localhost:3000
-echo  in your browser to complete onboarding.
+echo  OPTIONAL: AUTO-RUN ON WINDOWS STARTUP
+echo ============================================
+set /p autorun="Do you want AntiWifi to run automatically in the background when your PC starts? (Y/N): "
+if /i "%autorun%"=="Y" (
+    echo Creating Windows Startup shortcut...
+    powershell -Command "$wsh = New-Object -ComObject WScript.Shell; $shortcut = $wsh.CreateShortcut(\"$env:APPDATA\Microsoft\Windows\Start Menu\Programs\Startup\AntiWifi.lnk\"); $shortcut.TargetPath = \"%~dp0start-silent.vbs\"; $shortcut.WorkingDirectory = \"%~dp0\"; $shortcut.Save()"
+    echo [SUCCESS] AntiWifi will now run in the background on startup.
+) else (
+    echo [INFO] Skipped startup shortcut registration.
+)
+echo.
+echo ============================================
+echo  NEXT STEP: Run start.bat (visible console)
+echo  or double-click start-silent.vbs (silent)
+echo  to start the server. Then open:
+echo  http://localhost:3000
 echo ============================================
 echo.
 pause
+
 

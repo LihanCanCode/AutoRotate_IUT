@@ -70,18 +70,20 @@ It will show your PC's IP address and start the server:
 
 ---
 
-## 🔄 Making It Run Automatically (Optional but Recommended)
+## 🔄 Running invisibly in the background
 
-So that the server starts when your PC boots, install **pm2**:
+If you don't want a black command prompt window open all the time:
 
-```bash
-npm install -g pm2
-pm2 start index.js --name antiwifi
-pm2 save
-pm2 startup
-```
+1. Double-click **`start-silent.vbs`**.
+2. The server will run silently in the background.
 
-Follow the instructions `pm2 startup` prints. After that, AntiWifi will auto-start whenever your PC turns on.
+### 🖥️ Auto-Start on Windows Boot
+During `setup.bat`, you will be prompted if you want the project to launch automatically in the background when Windows boots up. If you chose **Yes**, a shortcut was created in your Startup folder.
+
+### 📊 How to stop/check it (Task Manager)
+1. Open Windows **Task Manager** (`Ctrl + Shift + Esc`).
+2. Look for **Node.js JavaScript Runtime** (under Background Processes).
+3. If you ever need to turn it off, right-click **Node.js JavaScript Runtime** and click **End Task**.
 
 ---
 
