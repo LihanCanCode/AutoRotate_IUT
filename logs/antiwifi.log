@@ -434,3 +434,191 @@
 {"level":"info","message":"[Router] ✅ PPPoE credentials updated → multazam","timestamp":"2026-06-21 12:30:55"}
 {"level":"info","message":"[AccountManager] 🔄 Rotated: unknown → Multa (Manual activation via dashboard)","timestamp":"2026-06-21 12:30:56"}
 {"level":"info","message":"[API] ✅ Activated: Multa","timestamp":"2026-06-21 12:30:56"}
+{"level":"info","message":"━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━","timestamp":"2026-06-21 12:54:15"}
+{"level":"info","message":"  ⚡ AntiWifi — Auto PPPoE Rotation System","timestamp":"2026-06-21 12:54:15"}
+{"level":"info","message":"  🌐 Dashboard: http://localhost:3000","timestamp":"2026-06-21 12:54:15"}
+{"level":"info","message":"  📡 Portal:    http://10.220.20.12","timestamp":"2026-06-21 12:54:15"}
+{"level":"info","message":"  📡 Router:    http://192.168.0.1","timestamp":"2026-06-21 12:54:15"}
+{"level":"info","message":"  ⏱  Interval:  every 150 minutes","timestamp":"2026-06-21 12:54:15"}
+{"level":"info","message":"  🔔 Threshold: 190 hours","timestamp":"2026-06-21 12:54:15"}
+{"level":"info","message":"  👥 Accounts:  2 configured","timestamp":"2026-06-21 12:54:15"}
+{"level":"info","message":"━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━","timestamp":"2026-06-21 12:54:15"}
+{"level":"info","message":"[Scheduler] Starting — checking every 150 minutes","timestamp":"2026-06-21 12:54:15"}
+{"level":"info","message":"[Scheduler] Rotation threshold: 190 hours","timestamp":"2026-06-21 12:54:15"}
+{"level":"info","message":"━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━","timestamp":"2026-06-21 12:54:15"}
+{"level":"info","message":"[Scheduler] 🔍 Starting check cycle...","timestamp":"2026-06-21 12:54:15"}
+{"level":"info","message":"[Scheduler] Active account: Person 1 Name (isp_username_1)","timestamp":"2026-06-21 12:54:15"}
+{"level":"info","message":"[Scraper] Fetching login page for: isp_username_1","timestamp":"2026-06-21 12:54:15"}
+{"level":"info","message":"[Scheduler] Cron jobs started","timestamp":"2026-06-21 12:54:15"}
+{"level":"info","message":"[Scraper] Logging in as: isp_username_1","timestamp":"2026-06-21 12:54:15"}
+{"level":"error","message":"[Scraper] Failed for isp_username_1: Request failed with status code 401","timestamp":"2026-06-21 12:54:15"}
+{"level":"info","message":"[Scheduler] 🔄 Refreshing all accounts usage...","timestamp":"2026-06-21 12:54:15"}
+{"level":"info","message":"[Scraper] Fetching login page for: isp_username_1","timestamp":"2026-06-21 12:54:15"}
+{"level":"info","message":"[Scraper] Logging in as: isp_username_1","timestamp":"2026-06-21 12:54:15"}
+{"level":"error","message":"[Scraper] Failed for isp_username_1: Request failed with status code 401","timestamp":"2026-06-21 12:54:16"}
+{"level":"info","message":"[Scraper] Fetching login page for: isp_username_2","timestamp":"2026-06-21 12:54:17"}
+{"level":"info","message":"[Scraper] Logging in as: isp_username_2","timestamp":"2026-06-21 12:54:17"}
+{"level":"error","message":"[Scraper] Failed for isp_username_2: Request failed with status code 401","timestamp":"2026-06-21 12:54:17"}
+{"level":"info","message":"[Scheduler] ✅ Check cycle complete","timestamp":"2026-06-21 12:54:19"}
+{"level":"info","message":"━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━","timestamp":"2026-06-21 12:54:19"}
+{"level":"info","message":"━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━","timestamp":"2026-06-21 12:54:19"}
+{"level":"info","message":"  ⚡ AntiWifi — Auto PPPoE Rotation System","timestamp":"2026-06-21 12:54:19"}
+{"level":"info","message":"  🌐 Dashboard: http://localhost:3000","timestamp":"2026-06-21 12:54:19"}
+{"level":"info","message":"  📡 Portal:    http://10.220.20.12","timestamp":"2026-06-21 12:54:19"}
+{"level":"info","message":"  📡 Router:    http://192.168.0.1","timestamp":"2026-06-21 12:54:19"}
+{"level":"info","message":"  ⏱  Interval:  every 150 minutes","timestamp":"2026-06-21 12:54:19"}
+{"level":"info","message":"  🔔 Threshold: 190 hours","timestamp":"2026-06-21 12:54:19"}
+{"level":"info","message":"  👥 Accounts:  2 configured","timestamp":"2026-06-21 12:54:19"}
+{"level":"info","message":"━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━","timestamp":"2026-06-21 12:54:19"}
+{"level":"info","message":"[Scheduler] Starting — checking every 150 minutes","timestamp":"2026-06-21 12:54:19"}
+{"level":"info","message":"[Scheduler] Rotation threshold: 190 hours","timestamp":"2026-06-21 12:54:19"}
+{"level":"info","message":"━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━","timestamp":"2026-06-21 12:54:19"}
+{"level":"info","message":"[Scheduler] 🔍 Starting check cycle...","timestamp":"2026-06-21 12:54:19"}
+{"level":"info","message":"[Scheduler] Active account: Person 1 Name (isp_username_1)","timestamp":"2026-06-21 12:54:19"}
+{"level":"info","message":"[Scraper] Fetching login page for: isp_username_1","timestamp":"2026-06-21 12:54:19"}
+{"level":"info","message":"[Scheduler] Cron jobs started","timestamp":"2026-06-21 12:54:19"}
+{"level":"info","message":"[Scraper] Logging in as: isp_username_1","timestamp":"2026-06-21 12:54:19"}
+{"level":"error","message":"[Scraper] Failed for isp_username_1: Request failed with status code 401","timestamp":"2026-06-21 12:54:19"}
+{"level":"info","message":"[Scheduler] 🔄 Refreshing all accounts usage...","timestamp":"2026-06-21 12:54:19"}
+{"level":"info","message":"[Scraper] Fetching login page for: isp_username_1","timestamp":"2026-06-21 12:54:19"}
+{"level":"info","message":"[Scraper] Logging in as: isp_username_1","timestamp":"2026-06-21 12:54:19"}
+{"level":"error","message":"[Scraper] Failed for isp_username_1: Request failed with status code 401","timestamp":"2026-06-21 12:54:19"}
+{"level":"info","message":"[Scraper] Fetching login page for: isp_username_2","timestamp":"2026-06-21 12:54:21"}
+{"level":"info","message":"[Scraper] Logging in as: isp_username_2","timestamp":"2026-06-21 12:54:21"}
+{"level":"error","message":"[Scraper] Failed for isp_username_2: Request failed with status code 401","timestamp":"2026-06-21 12:54:21"}
+{"level":"info","message":"[Scheduler] ✅ Check cycle complete","timestamp":"2026-06-21 12:54:23"}
+{"level":"info","message":"━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━","timestamp":"2026-06-21 12:54:23"}
+{"level":"info","message":"[API] Logged out — all accounts cleared","timestamp":"2026-06-21 12:54:57"}
+{"level":"info","message":"[API] Config updated","timestamp":"2026-06-21 12:55:08"}
+{"level":"info","message":"[API] Account added: Multazam (multazam)","timestamp":"2026-06-21 12:55:31"}
+{"level":"info","message":"[API] Account added: Lihan (tahsanlihan)","timestamp":"2026-06-21 12:55:55"}
+{"level":"info","message":"[API] Manual check triggered","timestamp":"2026-06-21 12:55:55"}
+{"level":"info","message":"━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━","timestamp":"2026-06-21 12:55:55"}
+{"level":"info","message":"[Scheduler] 🔍 Starting check cycle...","timestamp":"2026-06-21 12:55:55"}
+{"level":"info","message":"[Scheduler] Active account: Multazam (multazam)","timestamp":"2026-06-21 12:55:55"}
+{"level":"info","message":"[Scraper] Fetching login page for: multazam","timestamp":"2026-06-21 12:55:55"}
+{"level":"info","message":"[Scraper] Logging in as: multazam","timestamp":"2026-06-21 12:55:55"}
+{"level":"info","message":"[Scraper] Multazam: 9.2h / 200h (4.6%)","timestamp":"2026-06-21 12:55:56"}
+{"level":"info","message":"[AccountManager] Multazam: 9.2h / 190h threshold — OK","timestamp":"2026-06-21 12:55:56"}
+{"level":"info","message":"[Scheduler] 🔄 Refreshing all accounts usage...","timestamp":"2026-06-21 12:55:56"}
+{"level":"info","message":"[Scraper] Fetching login page for: multazam","timestamp":"2026-06-21 12:55:56"}
+{"level":"info","message":"[Scraper] Logging in as: multazam","timestamp":"2026-06-21 12:55:56"}
+{"level":"info","message":"[Scraper] Multazam: 9.2h / 200h (4.6%)","timestamp":"2026-06-21 12:55:56"}
+{"level":"info","message":"[Scraper] Fetching login page for: tahsanlihan","timestamp":"2026-06-21 12:55:58"}
+{"level":"info","message":"[Scraper] Logging in as: tahsanlihan","timestamp":"2026-06-21 12:55:58"}
+{"level":"info","message":"[Scraper] Lihan: 182.9h / 200h (91.5%)","timestamp":"2026-06-21 12:55:58"}
+{"level":"info","message":"[Scheduler] ✅ Check cycle complete","timestamp":"2026-06-21 12:56:00"}
+{"level":"info","message":"━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━","timestamp":"2026-06-21 12:56:00"}
+{"level":"info","message":"[API] Account added: Jehad (abubakar22)","timestamp":"2026-06-21 12:56:12"}
+{"level":"info","message":"[API] Manual check triggered","timestamp":"2026-06-21 12:56:12"}
+{"level":"info","message":"━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━","timestamp":"2026-06-21 12:56:13"}
+{"level":"info","message":"[Scheduler] 🔍 Starting check cycle...","timestamp":"2026-06-21 12:56:13"}
+{"level":"info","message":"[Scheduler] Active account: Multazam (multazam)","timestamp":"2026-06-21 12:56:13"}
+{"level":"info","message":"[Scraper] Fetching login page for: multazam","timestamp":"2026-06-21 12:56:13"}
+{"level":"info","message":"[Scraper] Logging in as: multazam","timestamp":"2026-06-21 12:56:13"}
+{"level":"info","message":"[Scraper] Multazam: 9.2h / 200h (4.6%)","timestamp":"2026-06-21 12:56:13"}
+{"level":"info","message":"[AccountManager] Multazam: 9.2h / 190h threshold — OK","timestamp":"2026-06-21 12:56:13"}
+{"level":"info","message":"[Scheduler] 🔄 Refreshing all accounts usage...","timestamp":"2026-06-21 12:56:13"}
+{"level":"info","message":"[Scraper] Fetching login page for: multazam","timestamp":"2026-06-21 12:56:13"}
+{"level":"info","message":"[Scraper] Logging in as: multazam","timestamp":"2026-06-21 12:56:13"}
+{"level":"info","message":"[Scraper] Multazam: 9.2h / 200h (4.6%)","timestamp":"2026-06-21 12:56:13"}
+{"level":"info","message":"[Scraper] Fetching login page for: tahsanlihan","timestamp":"2026-06-21 12:56:15"}
+{"level":"info","message":"[Scraper] Logging in as: tahsanlihan","timestamp":"2026-06-21 12:56:15"}
+{"level":"info","message":"[Scraper] Lihan: 182.9h / 200h (91.5%)","timestamp":"2026-06-21 12:56:15"}
+{"level":"info","message":"[Scraper] Fetching login page for: abubakar22","timestamp":"2026-06-21 12:56:17"}
+{"level":"info","message":"[Scraper] Logging in as: abubakar22","timestamp":"2026-06-21 12:56:17"}
+{"level":"info","message":"[Scraper] Jehad: 171.8h / 200h (85.9%)","timestamp":"2026-06-21 12:56:17"}
+{"level":"info","message":"[Scheduler] ✅ Check cycle complete","timestamp":"2026-06-21 12:56:19"}
+{"level":"info","message":"━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━","timestamp":"2026-06-21 12:56:19"}
+{"level":"info","message":"[API] Account added: Neel (subarnoneel)","timestamp":"2026-06-21 12:57:24"}
+{"level":"info","message":"[API] Manual check triggered","timestamp":"2026-06-21 12:57:24"}
+{"level":"info","message":"━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━","timestamp":"2026-06-21 12:57:24"}
+{"level":"info","message":"[Scheduler] 🔍 Starting check cycle...","timestamp":"2026-06-21 12:57:24"}
+{"level":"info","message":"[Scheduler] Active account: Multazam (multazam)","timestamp":"2026-06-21 12:57:24"}
+{"level":"info","message":"[Scraper] Fetching login page for: multazam","timestamp":"2026-06-21 12:57:24"}
+{"level":"info","message":"[Scraper] Logging in as: multazam","timestamp":"2026-06-21 12:57:24"}
+{"level":"info","message":"[Scraper] Multazam: 9.2h / 200h (4.6%)","timestamp":"2026-06-21 12:57:24"}
+{"level":"info","message":"[AccountManager] Multazam: 9.2h / 190h threshold — OK","timestamp":"2026-06-21 12:57:24"}
+{"level":"info","message":"[Scheduler] 🔄 Refreshing all accounts usage...","timestamp":"2026-06-21 12:57:24"}
+{"level":"info","message":"[Scraper] Fetching login page for: multazam","timestamp":"2026-06-21 12:57:24"}
+{"level":"info","message":"[Scraper] Logging in as: multazam","timestamp":"2026-06-21 12:57:24"}
+{"level":"info","message":"[Scraper] Multazam: 9.2h / 200h (4.6%)","timestamp":"2026-06-21 12:57:25"}
+{"level":"info","message":"[Scraper] Fetching login page for: tahsanlihan","timestamp":"2026-06-21 12:57:26"}
+{"level":"info","message":"[Scraper] Logging in as: tahsanlihan","timestamp":"2026-06-21 12:57:26"}
+{"level":"info","message":"[Scraper] Lihan: 182.9h / 200h (91.5%)","timestamp":"2026-06-21 12:57:27"}
+{"level":"info","message":"[Scraper] Fetching login page for: abubakar22","timestamp":"2026-06-21 12:57:28"}
+{"level":"info","message":"[Scraper] Logging in as: abubakar22","timestamp":"2026-06-21 12:57:28"}
+{"level":"info","message":"[Scraper] Jehad: 171.8h / 200h (85.9%)","timestamp":"2026-06-21 12:57:29"}
+{"level":"info","message":"[Scraper] Fetching login page for: subarnoneel","timestamp":"2026-06-21 12:57:30"}
+{"level":"info","message":"[Scraper] Logging in as: subarnoneel","timestamp":"2026-06-21 12:57:30"}
+{"level":"info","message":"[Scraper] Neel: 137.5h / 200h (68.8%)","timestamp":"2026-06-21 12:57:31"}
+{"level":"info","message":"[Scheduler] ✅ Check cycle complete","timestamp":"2026-06-21 12:57:32"}
+{"level":"info","message":"━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━","timestamp":"2026-06-21 12:57:32"}
+{"level":"info","message":"[API] Activating account: Multazam (multazam)","timestamp":"2026-06-21 12:58:00"}
+{"level":"info","message":"[Router] Launching browser to update PPPoE → multazam","timestamp":"2026-06-21 12:58:00"}
+{"level":"info","message":"[Router] Opening login page...","timestamp":"2026-06-21 12:58:01"}
+{"level":"info","message":"[Router] Entering admin password...","timestamp":"2026-06-21 12:58:05"}
+{"level":"info","message":"[Router] Waiting for login to complete...","timestamp":"2026-06-21 12:58:05"}
+{"level":"info","message":"[Router] Logged in. Navigating to Internet settings...","timestamp":"2026-06-21 12:58:14"}
+{"level":"info","message":"[Router] Looking for PPPoE Username field...","timestamp":"2026-06-21 12:58:17"}
+{"level":"info","message":"[Router] Entered username: multazam","timestamp":"2026-06-21 12:58:17"}
+{"level":"info","message":"[Router] Looking for PPPoE Password field...","timestamp":"2026-06-21 12:58:17"}
+{"level":"info","message":"[Router] Entered PPPoE password.","timestamp":"2026-06-21 12:58:18"}
+{"level":"info","message":"[Router] Clicking Save...","timestamp":"2026-06-21 12:58:18"}
+{"level":"error","message":"[Router] Puppeteer automation failed: Node is either not clickable or not an Element","timestamp":"2026-06-21 12:58:18"}
+{"level":"error","message":"[API] Activation failed:","timestamp":"2026-06-21 12:58:19"}
+{"level":"info","message":"[API] Activating account: Jehad (abubakar22)","timestamp":"2026-06-21 12:58:28"}
+{"level":"info","message":"[Router] Launching browser to update PPPoE → abubakar22","timestamp":"2026-06-21 12:58:28"}
+{"level":"info","message":"[Router] Opening login page...","timestamp":"2026-06-21 12:58:29"}
+{"level":"info","message":"[Router] Entering admin password...","timestamp":"2026-06-21 12:58:31"}
+{"level":"info","message":"[Router] Waiting for login to complete...","timestamp":"2026-06-21 12:58:32"}
+{"level":"info","message":"[Router] Logged in. Navigating to Internet settings...","timestamp":"2026-06-21 12:58:40"}
+{"level":"info","message":"[Router] Looking for PPPoE Username field...","timestamp":"2026-06-21 12:58:43"}
+{"level":"info","message":"[Router] Entered username: abubakar22","timestamp":"2026-06-21 12:58:43"}
+{"level":"info","message":"[Router] Looking for PPPoE Password field...","timestamp":"2026-06-21 12:58:43"}
+{"level":"info","message":"[Router] Entered PPPoE password.","timestamp":"2026-06-21 12:58:44"}
+{"level":"info","message":"[Router] Clicking Save...","timestamp":"2026-06-21 12:58:44"}
+{"level":"info","message":"[Router] Save clicked. Waiting for router to apply...","timestamp":"2026-06-21 12:58:44"}
+{"level":"info","message":"[Router] ✅ PPPoE credentials updated → abubakar22","timestamp":"2026-06-21 12:58:47"}
+{"level":"info","message":"[AccountManager] 🔄 Rotated: unknown → Jehad (Manual activation via dashboard)","timestamp":"2026-06-21 12:58:47"}
+{"level":"info","message":"[API] ✅ Activated: Jehad","timestamp":"2026-06-21 12:58:47"}
+{"level":"info","message":"[API] Activating account: Multazam (multazam)","timestamp":"2026-06-21 12:58:59"}
+{"level":"info","message":"[Router] Launching browser to update PPPoE → multazam","timestamp":"2026-06-21 12:58:59"}
+{"level":"info","message":"[Router] Opening login page...","timestamp":"2026-06-21 12:59:00"}
+{"level":"info","message":"[Router] Entering admin password...","timestamp":"2026-06-21 12:59:02"}
+{"level":"info","message":"[Router] Waiting for login to complete...","timestamp":"2026-06-21 12:59:03"}
+{"level":"info","message":"[Router] Logged in. Navigating to Internet settings...","timestamp":"2026-06-21 12:59:10"}
+{"level":"info","message":"[Router] Looking for PPPoE Username field...","timestamp":"2026-06-21 12:59:13"}
+{"level":"info","message":"[Router] Entered username: multazam","timestamp":"2026-06-21 12:59:13"}
+{"level":"info","message":"[Router] Looking for PPPoE Password field...","timestamp":"2026-06-21 12:59:13"}
+{"level":"info","message":"[Router] Entered PPPoE password.","timestamp":"2026-06-21 12:59:14"}
+{"level":"info","message":"[Router] Clicking Save...","timestamp":"2026-06-21 12:59:14"}
+{"level":"info","message":"[Router] Save clicked. Waiting for router to apply...","timestamp":"2026-06-21 12:59:14"}
+{"level":"info","message":"[Router] ✅ PPPoE credentials updated → multazam","timestamp":"2026-06-21 12:59:17"}
+{"level":"info","message":"[AccountManager] 🔄 Rotated: Jehad → Multazam (Manual activation via dashboard)","timestamp":"2026-06-21 12:59:17"}
+{"level":"info","message":"[API] ✅ Activated: Multazam","timestamp":"2026-06-21 12:59:17"}
+{"level":"info","message":"━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━","timestamp":"2026-06-21 13:00:00"}
+{"level":"info","message":"━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━","timestamp":"2026-06-21 13:00:00"}
+{"level":"info","message":"━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━","timestamp":"2026-06-21 13:00:00"}
+{"level":"info","message":"[Scheduler] 🔍 Starting check cycle...","timestamp":"2026-06-21 13:00:00"}
+{"level":"info","message":"[Scheduler] Active account: Multazam (multazam)","timestamp":"2026-06-21 13:00:00"}
+{"level":"info","message":"[Scraper] Fetching login page for: multazam","timestamp":"2026-06-21 13:00:00"}
+{"level":"info","message":"[Scheduler] 🔍 Starting check cycle...","timestamp":"2026-06-21 13:00:00"}
+{"level":"info","message":"[Scheduler] Active account: Person 1 Name (isp_username_1)","timestamp":"2026-06-21 13:00:00"}
+{"level":"info","message":"[Scraper] Fetching login page for: isp_username_1","timestamp":"2026-06-21 13:00:00"}
+{"level":"info","message":"[Scheduler] 🔍 Starting check cycle...","timestamp":"2026-06-21 13:00:00"}
+{"level":"info","message":"[Scheduler] Active account: Person 1 Name (isp_username_1)","timestamp":"2026-06-21 13:00:00"}
+{"level":"info","message":"[Scraper] Fetching login page for: isp_username_1","timestamp":"2026-06-21 13:00:00"}
+{"level":"info","message":"[Scraper] Logging in as: isp_username_1","timestamp":"2026-06-21 13:00:00"}
+{"level":"info","message":"[Scraper] Logging in as: isp_username_1","timestamp":"2026-06-21 13:00:00"}
+{"level":"info","message":"[Scraper] Logging in as: multazam","timestamp":"2026-06-21 13:00:00"}
+{"level":"error","message":"[Scraper] Failed for isp_username_1: Request failed with status code 401","timestamp":"2026-06-21 13:00:00"}
+{"level":"info","message":"[Scheduler] ✅ Check cycle complete","timestamp":"2026-06-21 13:00:00"}
+{"level":"info","message":"━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━","timestamp":"2026-06-21 13:00:00"}
+{"level":"error","message":"[Scraper] Failed for isp_username_1: Request failed with status code 401","timestamp":"2026-06-21 13:00:00"}
+{"level":"info","message":"[Scheduler] ✅ Check cycle complete","timestamp":"2026-06-21 13:00:00"}
+{"level":"info","message":"━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━","timestamp":"2026-06-21 13:00:00"}
+{"level":"info","message":"[Scraper] Multazam: 9.7h / 200h (4.8%)","timestamp":"2026-06-21 13:00:00"}
+{"level":"info","message":"[AccountManager] Multazam: 9.7h / 190h threshold — OK","timestamp":"2026-06-21 13:00:00"}
+{"level":"info","message":"[Scheduler] ✅ Check cycle complete","timestamp":"2026-06-21 13:00:00"}
+{"level":"info","message":"━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━","timestamp":"2026-06-21 13:00:00"}

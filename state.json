@@ -1,47 +1,85 @@
 {
-  "activeAccountId": 3,
-  "lastChecked": "2026-06-21T06:30:26.545Z",
-  "lastSwitched": "2026-06-21T06:30:56.106Z",
+  "activeAccountId": 1,
+  "lastChecked": "2026-06-21T07:00:00.436Z",
+  "lastSwitched": "2026-06-21T06:59:17.827Z",
   "rotationHistory": [
     {
-      "timestamp": "2026-06-21T06:30:56.106Z",
+      "timestamp": "2026-06-21T06:59:17.827Z",
+      "from": "abubakar22",
+      "fromOwner": "Jehad",
+      "to": "multazam",
+      "toOwner": "Multazam",
+      "reason": "Manual activation via dashboard"
+    },
+    {
+      "timestamp": "2026-06-21T06:58:47.786Z",
       "from": "unknown",
       "fromOwner": "unknown",
-      "to": "multazam",
-      "toOwner": "Multa",
+      "to": "abubakar22",
+      "toOwner": "Jehad",
       "reason": "Manual activation via dashboard"
     }
   ],
   "usageCache": {
+    "multazam": {
+      "username": "multazam",
+      "owner": "Multazam",
+      "freeLimit": "200 hrs",
+      "freeLimitHours": 200,
+      "totalUse": "9 hrs 41 mins 4 secs",
+      "totalUseHours": 9.684444444444445,
+      "extraUse": "0 secs",
+      "estimatedBill": "0 Taka",
+      "status": "active",
+      "usagePercent": "4.8",
+      "remainingHours": "190.3",
+      "scrapedAt": "2026-06-21T07:00:00.316Z",
+      "cachedAt": "2026-06-21T07:00:00.436Z"
+    },
     "tahsanlihan": {
       "username": "tahsanlihan",
       "owner": "Lihan",
       "freeLimit": "200 hrs",
       "freeLimitHours": 200,
-      "totalUse": "182 hrs 54 mins 12 secs",
-      "totalUseHours": 182.90333333333334,
+      "totalUse": "182 hrs 56 mins 37 secs",
+      "totalUseHours": 182.94361111111112,
       "extraUse": "0 secs",
       "estimatedBill": "0 Taka",
       "status": "active",
       "usagePercent": "91.5",
       "remainingHours": "17.1",
-      "scrapedAt": "2026-06-21T06:30:22.650Z",
-      "cachedAt": "2026-06-21T06:30:26.544Z"
+      "scrapedAt": "2026-06-21T06:57:27.061Z",
+      "cachedAt": "2026-06-21T06:57:32.774Z"
     },
-    "multazam": {
-      "username": "multazam",
-      "owner": "Multa",
+    "abubakar22": {
+      "username": "abubakar22",
+      "owner": "Jehad",
       "freeLimit": "200 hrs",
       "freeLimitHours": 200,
-      "totalUse": "9 hrs 13 mins 21 secs",
-      "totalUseHours": 9.2225,
+      "totalUse": "171 hrs 47 mins 48 secs",
+      "totalUseHours": 171.79666666666665,
       "extraUse": "0 secs",
       "estimatedBill": "0 Taka",
       "status": "active",
-      "usagePercent": "4.6",
-      "remainingHours": "190.8",
-      "scrapedAt": "2026-06-21T06:30:24.673Z",
-      "cachedAt": "2026-06-21T06:30:26.545Z"
+      "usagePercent": "85.9",
+      "remainingHours": "28.2",
+      "scrapedAt": "2026-06-21T06:57:29.156Z",
+      "cachedAt": "2026-06-21T06:57:32.779Z"
+    },
+    "subarnoneel": {
+      "username": "subarnoneel",
+      "owner": "Neel",
+      "freeLimit": "200 hrs",
+      "freeLimitHours": 200,
+      "totalUse": "137 hrs 31 mins 6 secs",
+      "totalUseHours": 137.51833333333335,
+      "extraUse": "0 secs",
+      "estimatedBill": "0 Taka",
+      "status": "active",
+      "usagePercent": "68.8",
+      "remainingHours": "62.5",
+      "scrapedAt": "2026-06-21T06:57:31.160Z",
+      "cachedAt": "2026-06-21T06:57:32.782Z"
     }
   }
 }

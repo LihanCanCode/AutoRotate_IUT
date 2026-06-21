@@ -704,3 +704,29 @@ setTimeout(() => {
 
 setInterval(fetchStatus, 12000);
 setInterval(fetchLogs, 15000);
+
+// ── Share URL (for roommates) ─────────────────────────────────────────
+async function loadShareUrl() {
+  try {
+    const res = await fetch('/api/share-url');
+    const data = await res.json();
+    if (data.ok) {
+      const el = document.getElementById('shareUrlValue');
+      if (el) el.textContent = data.url;
+    }
+  } catch (e) {
+    const el = document.getElementById('shareUrlValue');
+    if (el) el.textContent = `http://localhost:3000`;
+  }
+}
+
+function copyShareUrl() {
+  const url = document.getElementById('shareUrlValue')?.textContent;
+  if (!url) return;
+  navigator.clipboard.writeText(url).then(() => {
+    const btn = document.querySelector('.share-url-box .btn');
+    if (btn) { btn.textContent = '✅ Copied!'; setTimeout(() => btn.textContent = '📋 Copy Link', 2000); }
+  });
+}
+
+loadShareUrl();

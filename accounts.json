@@ -4,20 +4,32 @@
   "router": {
     "url": "http://192.168.0.1",
     "username": "admin",
-    "password": "YOUR_ROUTER_PASSWORD_HERE"
+    "password": "room304"
   },
   "accounts": [
     {
       "id": 1,
-      "owner": "Person 1 Name",
-      "username": "isp_username_1",
-      "password": "isp_password_1"
+      "owner": "Multazam",
+      "username": "multazam",
+      "password": "Mulmud743"
     },
     {
       "id": 2,
-      "owner": "Person 2 Name",
-      "username": "isp_username_2",
-      "password": "isp_password_2"
+      "owner": "Lihan",
+      "username": "tahsanlihan",
+      "password": "Tahhan65"
+    },
+    {
+      "id": 3,
+      "owner": "Jehad",
+      "username": "abubakar22",
+      "password": "Abulam337"
+    },
+    {
+      "id": 4,
+      "owner": "Neel",
+      "username": "subarnoneel",
+      "password": "Carredagneu@2410"
     }
   ]
 }

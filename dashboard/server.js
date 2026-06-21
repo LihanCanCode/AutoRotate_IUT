@@ -26,6 +26,24 @@ function saveConfig() {
   fs.writeFileSync(CONFIG_FILE, JSON.stringify(appConfig, null, 2), 'utf-8');
 }
 
+// ── GET /api/share-url ───────────────────────────────────────────────
+// Returns the local LAN IP so roommates know what URL to visit
+router.get('/api/share-url', (req, res) => {
+  const os = require('os');
+  const nets = os.networkInterfaces();
+  let localIp = 'localhost';
+  for (const name of Object.keys(nets)) {
+    for (const net of nets[name]) {
+      if (net.family === 'IPv4' && !net.internal) {
+        localIp = net.address;
+        break;
+      }
+    }
+    if (localIp !== 'localhost') break;
+  }
+  res.json({ ok: true, url: `http://${localIp}:3000` });
+});
+
 // ── GET /api/status ─────────────────────────────────────────────────
 router.get('/api/status', (req, res) => {
   try {
