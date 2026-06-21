@@ -16,8 +16,18 @@ const dashboardAPI = require('../dashboard/server');
 // ── Load config ──────────────────────────────────────────────────────
 const CONFIG_FILE = path.join(__dirname, '..', 'accounts.json');
 if (!fs.existsSync(CONFIG_FILE)) {
-  console.error('❌ accounts.json not found. Please create it with your accounts config.');
-  process.exit(1);
+  const defaultTemplate = {
+    "threshold_hours": 190,
+    "check_interval_minutes": 150,
+    "router": {
+      "url": "http://192.168.0.1",
+      "username": "admin",
+      "password": ""
+    },
+    "accounts": []
+  };
+  fs.writeFileSync(CONFIG_FILE, JSON.stringify(defaultTemplate, null, 2), 'utf-8');
+  logger.info('[Init] Created default accounts.json template.');
 }
 
 const config = JSON.parse(fs.readFileSync(CONFIG_FILE, 'utf-8'));

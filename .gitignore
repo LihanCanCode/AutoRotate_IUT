@@ -6,3 +6,5 @@ scratch_test.js
 read_dom.js
 test_router.js
 .env
+accounts.json
+state.json
