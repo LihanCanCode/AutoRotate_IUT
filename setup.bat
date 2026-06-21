@@ -38,14 +38,10 @@ echo.
 echo [3/3] Setup complete!
 echo.
 echo ============================================
-echo  NEXT STEP: Edit accounts.json with your
-echo  router password and ISP account details.
+echo  NEXT STEP: Run start.bat to start the
+echo  server, then open http://localhost:3000
+echo  in your browser to complete onboarding.
 echo ============================================
 echo.
-echo Opening accounts.json for editing...
-timeout /t 2 >nul
-notepad accounts.json
-
-echo.
-echo When you are done editing, run: start.bat
 pause
+
