@@ -86,10 +86,30 @@ router.get('/api/logs', (req, res) => {
   if (!fs.existsSync(logFile)) return res.json({ ok: true, logs: [] });
   try {
     const content = fs.readFileSync(logFile, 'utf-8');
-    const lines = content.trim().split('\n').slice(-100).reverse();
-    const logs = lines.map(line => {
+    const lines = content.trim().split('\n').slice(-200).reverse();
+    let logs = lines.map(line => {
       try { return JSON.parse(line); } catch { return { message: line }; }
     });
+
+    // Filter logs to show only relevant info
+    logs = logs.filter(log => {
+      const msg = log.message || '';
+      return msg.includes('rotated') ||
+             msg.includes('Switching') ||
+             msg.includes('Rotation') ||
+             msg.includes('Switched') ||
+             msg.includes('Activated') ||
+             msg.includes('check cycle') ||
+             msg.includes('Account added') ||
+             msg.includes('Account removed') ||
+             msg.includes('Config updated') ||
+             msg.includes('Manual switch') ||
+             msg.includes('Cron jobs') ||
+             msg.includes('AntiWifi') ||
+             msg.includes('Failed') ||
+             msg.includes('Error');
+    }).slice(0, 100);
+
     res.json({ ok: true, logs });
   } catch (err) {
     res.status(500).json({ ok: false, error: err.message });

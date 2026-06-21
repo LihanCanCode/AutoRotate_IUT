@@ -64,6 +64,10 @@ app.listen(PORT, () => {
 
   // Start the scheduler
   scheduler.start(config, state);
+
+  // Send startup notification
+  const { notify } = require('./notifier');
+  notify('AntiWifi Started ⚡', 'AntiWifi is running in the background.');
 });
 
 // Graceful shutdown
